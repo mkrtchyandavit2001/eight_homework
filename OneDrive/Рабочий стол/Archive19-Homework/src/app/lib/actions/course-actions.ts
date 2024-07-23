@@ -29,15 +29,6 @@ export const handleAdd = async (prev:unknown, data:FormData) => {
       }
    }
    
-   // if () {
-   //    return { 
-   //       message: "A course with this name already exists"
-   //    };
-   // }
-   
-   
-
-
    const photo = data.get('cover') as File
    if(photo){
      let extension = photo.type.split("/").at(-1)
