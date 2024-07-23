@@ -1,0 +1,54 @@
+{
+  "node": {
+    "06e4cbcaafd04a2afe516bd54d0ff2cb922a34df": {
+      "workers": {
+        "app/courses/add/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CLenovo%5C%5COneDrive%5C%5C%D0%A0%D0%B0%D0%B1%D0%BE%D1%87%D0%B8%D0%B9%20%D1%81%D1%82%D0%BE%D0%BB%5C%5CArchive19-Homework%5C%5Csrc%5C%5Capp%5C%5Clib%5C%5Cactions%5C%5Ccourse-actions.ts%22%2C%5B%22%24%24ACTION_2%22%2C%22%24%24ACTION_0%22%2C%22handleUpdate%22%2C%22handleAdd%22%2C%22%24%24ACTION_1%22%2C%22handleAddModule%22%5D%5D%5D&__client_imported__=true!"
+      },
+      "layer": {
+        "app/courses/add/page": "action-browser"
+      }
+    },
+    "1710a423f5c74c5bb57613f009dd5053ac2b4167": {
+      "workers": {
+        "app/courses/add/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CLenovo%5C%5COneDrive%5C%5C%D0%A0%D0%B0%D0%B1%D0%BE%D1%87%D0%B8%D0%B9%20%D1%81%D1%82%D0%BE%D0%BB%5C%5CArchive19-Homework%5C%5Csrc%5C%5Capp%5C%5Clib%5C%5Cactions%5C%5Ccourse-actions.ts%22%2C%5B%22%24%24ACTION_2%22%2C%22%24%24ACTION_0%22%2C%22handleUpdate%22%2C%22handleAdd%22%2C%22%24%24ACTION_1%22%2C%22handleAddModule%22%5D%5D%5D&__client_imported__=true!"
+      },
+      "layer": {
+        "app/courses/add/page": "action-browser"
+      }
+    },
+    "9fb0406fb42e3a22d07089d3fcdd186b224ebbb4": {
+      "workers": {
+        "app/courses/add/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CLenovo%5C%5COneDrive%5C%5C%D0%A0%D0%B0%D0%B1%D0%BE%D1%87%D0%B8%D0%B9%20%D1%81%D1%82%D0%BE%D0%BB%5C%5CArchive19-Homework%5C%5Csrc%5C%5Capp%5C%5Clib%5C%5Cactions%5C%5Ccourse-actions.ts%22%2C%5B%22%24%24ACTION_2%22%2C%22%24%24ACTION_0%22%2C%22handleUpdate%22%2C%22handleAdd%22%2C%22%24%24ACTION_1%22%2C%22handleAddModule%22%5D%5D%5D&__client_imported__=true!"
+      },
+      "layer": {
+        "app/courses/add/page": "action-browser"
+      }
+    },
+    "aa6ae0701d19736eeea8d76334bb82376a5a60a9": {
+      "workers": {
+        "app/courses/add/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CLenovo%5C%5COneDrive%5C%5C%D0%A0%D0%B0%D0%B1%D0%BE%D1%87%D0%B8%D0%B9%20%D1%81%D1%82%D0%BE%D0%BB%5C%5CArchive19-Homework%5C%5Csrc%5C%5Capp%5C%5Clib%5C%5Cactions%5C%5Ccourse-actions.ts%22%2C%5B%22%24%24ACTION_2%22%2C%22%24%24ACTION_0%22%2C%22handleUpdate%22%2C%22handleAdd%22%2C%22%24%24ACTION_1%22%2C%22handleAddModule%22%5D%5D%5D&__client_imported__=true!"
+      },
+      "layer": {
+        "app/courses/add/page": "action-browser"
+      }
+    },
+    "b9e177a162ea569ccaa13b66415717c0c3b7435d": {
+      "workers": {
+        "app/courses/add/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CLenovo%5C%5COneDrive%5C%5C%D0%A0%D0%B0%D0%B1%D0%BE%D1%87%D0%B8%D0%B9%20%D1%81%D1%82%D0%BE%D0%BB%5C%5CArchive19-Homework%5C%5Csrc%5C%5Capp%5C%5Clib%5C%5Cactions%5C%5Ccourse-actions.ts%22%2C%5B%22%24%24ACTION_2%22%2C%22%24%24ACTION_0%22%2C%22handleUpdate%22%2C%22handleAdd%22%2C%22%24%24ACTION_1%22%2C%22handleAddModule%22%5D%5D%5D&__client_imported__=true!"
+      },
+      "layer": {
+        "app/courses/add/page": "action-browser"
+      }
+    },
+    "ea012004082755efd45c660bceb9d5b4c31bce26": {
+      "workers": {
+        "app/courses/add/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CLenovo%5C%5COneDrive%5C%5C%D0%A0%D0%B0%D0%B1%D0%BE%D1%87%D0%B8%D0%B9%20%D1%81%D1%82%D0%BE%D0%BB%5C%5CArchive19-Homework%5C%5Csrc%5C%5Capp%5C%5Clib%5C%5Cactions%5C%5Ccourse-actions.ts%22%2C%5B%22%24%24ACTION_2%22%2C%22%24%24ACTION_0%22%2C%22handleUpdate%22%2C%22handleAdd%22%2C%22%24%24ACTION_1%22%2C%22handleAddModule%22%5D%5D%5D&__client_imported__=true!"
+      },
+      "layer": {
+        "app/courses/add/page": "action-browser"
+      }
+    }
+  },
+  "edge": {},
+  "encryptionKey": "xD6rX52v6c4c7T3IY67N8mSLwUnDjVBn3YZ2IU6nxBI="
+}
