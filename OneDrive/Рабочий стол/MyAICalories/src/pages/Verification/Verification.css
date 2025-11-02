@@ -1,0 +1,315 @@
+/* Container */
+.verification-root {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #f3f4f6 0%, #e5e7eb 100%);
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* Card */
+.verification-card {
+  width: 320px;
+  max-width: 100%;
+  background: #ffffff;
+  border-radius: 20px;
+  padding: 32px 28px;
+  text-align: center;
+  box-sizing: border-box;
+  position: relative;
+  overflow: hidden;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.verification-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, #55C360, #4AB55A);
+}
+
+/* Title / subtitle */
+.verification-title {
+  font-size: 1.375rem; /* 22px */
+  font-weight: 600;
+  margin: 0 0 6px 0;
+  color: #0f172a;
+}
+
+.verification-subtitle {
+  color: #6b7280;
+  font-size: 0.875rem; /* 14px */
+  margin: 0 0 20px 0;
+  line-height: 1.5;
+}
+
+/* OTP inputs container */
+.otp-row {
+  display: flex;
+  gap: 12px;
+  /* width: auto; */
+  justify-content: center;
+  margin-bottom: 18px;
+}
+
+/* Single OTP input */
+.otp-input {
+  width: 48px;
+  height: 48px;
+  border-radius: 12px;
+  border: 2px solid #e5e7eb;
+  text-align: center;
+  font-size: 1.25rem; /* 20px */
+  font-weight: 600;
+  outline: none;
+  transition: all 200ms cubic-bezier(0.4, 0, 0.2, 1);
+  background: #ffffff;
+  caret-color: transparent; /* hide caret */
+  color: #1f2937;
+}
+
+.otp-input::placeholder {
+  color: #9ca3af;
+  font-weight: 400;
+}
+
+/* when focused */
+.otp-input:focus {
+  border-color: #55C360; /* green-600 */
+  transform: translateY(-2px);
+  background: #f8fffe;
+}
+
+/* disabled (if you choose to disable during resend) */
+.otp-input[disabled] {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+/* Continue button */
+.btn-continue {
+  display: inline-block;
+  padding: 14px 32px;
+  border-radius: 12px;
+  background: linear-gradient(135deg, #55C360 0%, #4AB55A 100%);
+  color: #fff;
+  font-weight: 600;
+  font-size: 0.95rem;
+  border: none;
+  cursor: pointer;
+  transition: all 200ms cubic-bezier(0.4, 0, 0.2, 1);
+  width: 100%;
+  margin-top: 12px;
+  position: relative;
+  overflow: hidden;
+}
+
+.btn-continue:hover {
+  background: linear-gradient(135deg, #4AB55A 0%, #399942 100%);
+  transform: translateY(-2px);
+}
+
+.btn-continue:active {
+  background: linear-gradient(135deg, #399942 0%, #2d7a35 100%);
+  transform: translateY(0);
+}
+
+.btn-continue:disabled {
+  background: linear-gradient(135deg, #9CA3AF 0%, #6B7280 100%);
+  cursor: not-allowed;
+  transform: none;
+  opacity: 0.7;
+}
+
+/* Resend area */
+.resend-row {
+  margin-top: 14px;
+  color: #475569;
+  font-size: 0.875rem;
+  /* width: auto; */
+}
+
+.resend-button {
+  background: none;
+  border: none;
+  color: #55C360;
+  cursor: pointer;
+  font-weight: 600;
+  padding: 0;
+  transition: all 150ms ease;
+}
+
+.resend-button:hover {
+  color: #4AB55A;
+  text-decoration: underline;
+}
+
+.resend-button:focus {
+  outline: 2px solid rgba(85, 195, 96, 0.2);
+  border-radius: 6px;
+}
+
+/* Timer numeric style */
+.timer {
+  color: #55C360;
+  font-weight: 700;
+}
+
+/* Small helper / error text */
+.helper-text {
+  margin-top: 12px;
+  font-size: 0.825rem;
+  /* width: auto; */
+  color: #ef4444; /* red-500 */
+  height: 18px; /* keep space to avoid layout shift */
+  text-align: center;
+  font-weight: 500;
+}
+
+/* Success message styling */
+.helper-text.success {
+  color: #55C360;
+}
+
+/* Error message styling */
+.helper-text.error {
+  color: #ef4444;
+}
+
+/* Shake animation for invalid OTP */
+@keyframes shakeX {
+  0% { transform: translateX(0); }
+  15% { transform: translateX(-8px); }
+  30% { transform: translateX(8px); }
+  45% { transform: translateX(-6px); }
+  60% { transform: translateX(6px); }
+  75% { transform: translateX(-3px); }
+  100% { transform: translateX(0); }
+}
+
+.shake {
+  animation: shakeX 500ms ease;
+  border-color: #ef4444 !important;
+}
+
+/* Loading state for button */
+.btn-continue.loading {
+  position: relative;
+  color: transparent;
+}
+
+.btn-continue.loading::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 20px;
+  height: 20px;
+  margin: -10px 0 0 -10px;
+  border: 2px solid transparent;
+  border-top: 2px solid #ffffff;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Enhanced responsive design */
+@media (max-width: 480px) {
+  .verification-card {
+    width: 90%;
+    padding: 24px;
+    margin: 20px;
+  }
+
+  .verification-title {
+    font-size: 1.25rem;
+  }
+
+  .verification-subtitle {
+    font-size: 0.8rem;
+  }
+
+  .otp-input {
+    width: 44px;
+    height: 44px;
+    font-size: 1.1rem;
+  }
+
+  .otp-row {
+    gap: 8px;
+  }
+}
+
+@media (max-width: 360px) {
+  .verification-card {
+    width: 92%;
+    padding: 20px;
+  }
+
+  .otp-input {
+    width: 40px;
+    height: 40px;
+    font-size: 1rem;
+  }
+
+  .otp-row {
+    gap: 6px;
+  }
+}
+
+/* Additional enhancements */
+.otp-input:not(:placeholder-shown) {
+  border-color: #55C360;
+  background: #f8fffe;
+}
+
+.otp-input.error {
+  border-color: #ef4444;
+  background: #fef2f2;
+  animation: shakeX 500ms ease;
+}
+
+/* Smooth transitions for all interactive elements */
+* {
+  transition: color 150ms ease, background-color 150ms ease, border-color 150ms ease;
+}
+
+/* Focus visible for better accessibility */
+.btn-continue:focus-visible,
+.resend-button:focus-visible,
+.otp-input:focus-visible {
+  outline: 2px solid #55C360;
+  outline-offset: 2px;
+}
+
+/* High contrast mode support */
+@media (prefers-contrast: high) {
+  .otp-input {
+    border-width: 3px;
+  }
+  
+  .btn-continue {
+    border: 2px solid #000;
+  }
+}
+
+/* Reduced motion support */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div {
+  background-color: #fdfdfe;
+  border-radius: 15px;
+  text-align: center;
+  padding: 40px 50px;
+
+}
+
+.signup-container{
+  padding: 40px 50px;
+}
+
+h2 {
+  margin-bottom: 20px;
+  color: #333;
+  font-size: 26px;
+  font-weight: 600;
+}
+
+form input {
+  display: block;
+  width: 100%;
+  padding: 12px 14px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 15px;
+  transition: 0.3s;
+}
+
+form input:focus {
+  outline: none;
+  border-color: #6a5acd;
+}
+
+.signup {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  background: #55c360;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.signup:hover {
+  background: #299d35;
+  transform: scale(1.02);
+}
+
+span {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+span[style*="red"] {
+  color: #e63946;
+}
+
+span[style*="green"] {
+  color: #2a9d8f;
+}
+
+.or {
+  padding: 20px;
+}
+
+.google {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 100%;
+  padding: 8px;
+  margin: 15px 0;
+  background-color: #fff;
+  color: #444;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.google img {
+  width: 22px;
+  height: 22px;
+  object-fit: contain;
+}
+
+.google:hover {
+  background-color: #f7f7f7;
+  transform: scale(1.02);
+}
+
+.google:active {
+  transform: scale(0.98);
+}
+
+.google span {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.signin {
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.signin a {
+  color: #55C360;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.signin a:hover {
+  color: #4AB55A;
+  text-decoration: underline;
+}
