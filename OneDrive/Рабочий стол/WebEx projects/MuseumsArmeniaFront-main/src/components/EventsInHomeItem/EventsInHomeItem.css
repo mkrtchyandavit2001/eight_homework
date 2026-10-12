@@ -1,0 +1,214 @@
+.events_in_home_item{
+    display: flex;
+}
+.events_in_home_item:nth-of-type(even){
+    flex-direction: row-reverse;
+}
+
+
+.events_in_home_item >div{
+    width: 50%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+
+
+.events_in_home_item_img_div{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding-right: 50px;
+}
+
+.events_in_home_item:nth-of-type(even) .events_in_home_item_img_div{
+    border-left: 2px solid var(--second_font_color);
+    justify-content: flex-start;
+    padding-left: 50px;
+}
+
+
+.events_in_home_item_img_div >img{
+    width: 367px;
+    height: 265px;
+}
+
+.events_in_home_item_info{
+    display: flex;
+    align-items: flex-end;
+    padding: 50px 0;
+    padding-right: 160px;
+    justify-content: flex-end;
+    position: relative;
+    text-align: right;
+}
+
+.events_in_home_item_info .event_location_div span{
+    text-align: right;
+}
+
+.events_in_home_item:nth-of-type(odd) .events_in_home_item_info{
+    border-left: 2px solid var(--second_font_color);
+    padding-left: 160px;
+    padding-right: 0;
+    justify-content: flex-start;
+    text-align: left;
+}
+.events_in_home_item:nth-of-type(odd) .event_location_div span{
+    text-align: left;
+}
+
+/* ================ */
+
+.events_in_home_item_info_block{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.events_in_home_item:nth-of-type(even) .events_in_home_item_info_block{
+    align-items: flex-end;
+}
+
+.events_in_home_item_info_block_txt_div{
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.events_in_home_item:nth-of-type(even) .events_in_home_item_info_block_txt_div{
+    flex-direction: row-reverse;
+}
+
+
+.events_in_home_item_info_block_txt_div_date_and_price{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-right: 1px solid var(--second_font_color);
+    padding-right: 20px;
+}
+
+.events_in_home_item:nth-of-type(even) .events_in_home_item_info_block_txt_div_date_and_price{
+    border-left: 1px solid var(--second_font_color);
+    border-right: none;
+    padding-right: 0;
+    padding-left: 20px;
+}
+
+.events_in_home_item_info_block_txt_div_info_div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 340px;
+}
+
+.event_location_div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: right;
+}
+
+.events_in_home_item:nth-of-type(odd) .event_location_div{
+    justify-content: left;
+}
+
+.truncate {
+    white-space: nowrap;     
+    overflow: hidden;         
+    text-overflow: ellipsis;   
+    max-width: 100%;           
+}
+
+
+/* .events_in_home_item_info_block_txt_div_info_div_event_name{
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: is;
+} */
+
+
+.line_div_event_left{
+    position: absolute;
+    top: 160px;
+    left: -6px;
+}
+
+.line_div_event_right{
+    position: absolute;
+    top: 160px;
+    right: -6px;
+}
+
+.event_inHome_btn{
+    padding: 5px 20px;
+    background-color: #D5AA72;
+    border: none;
+    outline: none;
+    color: var(--main_font_color);
+}
+
+
+.event_inHome_btn:hover{
+    background-color: #B28851;
+}
+
+
+
+@media(max-width: 1024px){
+    .events_in_home_item{
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+
+    .events_in_home_item:nth-of-type(even){
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .events_in_home_item >div{
+        width: 90%;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        border: none !important;
+        justify-content: center !important;
+    }
+    .line_div_event_left, .line_div_event_right{
+        display: none;
+    }
+}
+
+
+@media(max-width: 780px){
+    .lines_div_events img{
+        display: none;
+    }
+
+    .events_in_home{
+        padding: 30px;
+    }
+
+    .events_in_home_item_info_block_txt_div_info_div{
+        max-width: 250px;
+    }
+}
+
+
+
+@media(max-width: 480px){
+
+    .events_in_home{
+        padding: 0;
+    }
+
+    .events_in_home_item_info_block_txt_div_info_div{
+        max-width: 200px;
+    }
+}

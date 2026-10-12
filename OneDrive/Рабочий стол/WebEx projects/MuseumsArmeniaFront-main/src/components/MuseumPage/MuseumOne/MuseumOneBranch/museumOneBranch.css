@@ -1,0 +1,106 @@
+.MuseumOneBranch-parList {
+   display: flex;
+   justify-content: start;
+   align-items: center;
+   gap: 20px;
+   margin-top: 20px;
+}
+.MuseumOneBranch-parList a {
+   flex-basis: 570px;
+}
+
+.museumOneBranchList-par {
+   display: flex;
+   align-items: stretch;
+}
+.museumOneBranchList-parImg {
+   width: 200px;
+   height: 220px;
+   min-width: 200px;
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+
+.museumOneBranchList-parDesc {
+   padding: 15px;
+   box-shadow: 0px 2px 3px 0px #00000026;
+   width: 100%;
+}
+.museumOneBranchList-parDesc p {
+   font-family: globalFont;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 24px;
+   color: #575757;
+   margin-bottom: 16px;
+}
+
+.parDesc-infoList {
+   display: flex;
+   flex-direction: column;
+   gap: 8px;
+   max-width: 270px;
+}
+
+.parDesc-infoList li {
+   font-family: globalFont;
+   font-weight: 400;
+   font-size: 13px;
+   line-height: 20px;
+   color: #575757;
+}
+.parDesc-infoList li > a {
+   font-family: globalFont;
+   font-weight: 400;
+   font-size: 13px;
+   line-height: 20px;
+   color: #575757;
+}
+
+.MuseumOneBranchOne-section {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.BranchOne-img {
+   max-width: 450px;
+   /* height: 320px; */
+   padding: 20px;
+   background-color: #f0f0f0;
+   margin-bottom: 24px;
+}
+
+.goBack {
+   padding: 15px;
+   display: flex;
+   align-items: center;
+   gap: 10px;
+   cursor: pointer;
+}
+.goBack > p {
+   border: none;
+   background-color: inherit;
+   font-family: globalFont;
+   font-weight: 600;
+   font-size: 17px;
+   line-height: 20px;
+   color: rgb(206, 166, 112);
+   padding: 0;
+}
+
+@media (max-width: 1000px) {
+   .MuseumOneBranch-parList {
+      flex-wrap: wrap;
+   }
+}
+@media (max-width: 550px) {
+   .MuseumOneBranch-parList a {
+      flex-basis: 350px;
+   }
+   .museumOneBranchList-par {
+      align-items: center;
+      flex-direction: column;
+   }
+}

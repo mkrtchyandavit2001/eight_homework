@@ -1,0 +1,36 @@
+.App .nav_menu_item a {
+  color: var(--main_font_color);
+  text-decoration: none;
+  padding: 10px;
+  position: relative;
+  overflow: hidden;
+  letter-spacing: 0.1px;
+  transition: all 0.3s ease-in-out;
+  font-size: 16px;
+}
+.nav_menu_item a:hover {
+  font-size: 16px;
+  letter-spacing: 1px;
+  transition: all 0.3s ease-in-out;
+}
+.nav_menu_item a::before {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 1px;
+  background-color: rgb(244, 232, 220);
+  bottom: 3px;
+  left: 50%;
+  transition: all 0.3s ease-in-out;
+}
+
+.nav_menu_item a:hover::before {
+  width: 100%;
+  left: 0;
+}
+.active-item {
+  border-bottom: 1px solid var(--second_font_color);
+  padding-bottom: 5px;
+}
+
+

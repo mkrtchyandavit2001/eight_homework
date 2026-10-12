@@ -1,0 +1,151 @@
+
+.chat_all {
+  height: 720px;
+  display: flex;
+  background-color: #ededed;
+  position: relative;
+  width: 100%;
+}
+.chat_left {
+  width: 350px;
+  height: 100%;
+  background-color: white;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.112);
+}
+
+.chat_left2 {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.112);
+}
+
+/* .chat_left_2 {
+  width: 100%;
+  position: absolute;
+  z-index: 99;
+  top: 0;
+  bottom: 0;
+  background-color: white;
+} */
+
+.chat_user {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 10px;
+  cursor: pointer;
+}
+
+.chat_user > div {
+  width: 100%;
+  height: 100%;
+}
+
+.chat_user_count {
+  background-color: darkgoldenrod;
+  border-radius: 50%;
+  width: 24px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.chat_right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.chat_right_content {
+  /* display: flex;
+ align-items: flex-start;
+ flex-direction: column;
+ justify-content: end; */
+  margin-top: 20px;
+  padding: 20px;
+  height: 100%;
+  gap: 10px;
+  overflow-y: auto;
+  max-height: 800px;
+}
+
+.chat_right_content::-webkit-scrollbar {
+  width: 0;
+}
+
+.chat_right_content_messages {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 250px;
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.chat_right_content_full {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+span.chat_right_content_messages_created_at {
+  color: #aaaa;
+  font-size: 12px;
+}
+
+.chat_right_typeing {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* padding: 10px; */
+  /* background-color: red; */
+  height: 65px;
+  position: relative;
+}
+.chat_right_typeing input {
+  width: 100%;
+  padding: 15px;
+  height: 60px;
+  resize: none;
+  border: none;
+}
+.chat_right_typeing input:focus {
+  outline: none;
+}
+.chat_right_typeing img {
+  position: absolute;
+  right: 25px;
+  top: 20px;
+}
+.chat_right_typeing p {
+  position: absolute;
+  left: 20px;
+}
+
+.chat_right_back {
+  padding: 20px;
+  display: none;
+}
+
+.empty_messages {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+  flex-direction: column;
+  gap: 20px;
+}
+
+@media (max-width: 768px) {
+  /* .chat_left {
+     display: none;
+  } */
+
+  .chat_right_back {
+     padding: 20px;
+     display: block;
+  }
+}

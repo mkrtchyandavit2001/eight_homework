@@ -1,0 +1,136 @@
+.section_aboute_us{
+    min-height: 650px;
+}
+
+
+.section_aboute_us .container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+
+.section_aboute_us_title_div{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.section_aboute_us_title_div h3{
+    color: var(--second_font_color);
+    letter-spacing: 10px;
+    font-weight: 100;
+    text-align: center;
+}
+
+.section_aboute_us_title_div h2{
+    color: black;
+    letter-spacing: 2px;
+    font-weight: 100;
+    text-align: center;
+}
+
+.section_aboute_us_info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%; 
+    background-color: #f8f8f8
+}
+
+.section_aboute_us .container .section_aboute_us_info div {
+    width: 50%;
+    height: 100%;
+    height: 100%;
+}
+
+.section_aboute_us_left_div{
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section_aboute_us_right_div{
+    background-image: url('../../images//anute_us.gif');
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+}
+
+
+.lines_div_section_about_us{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding-bottom: 50px;
+}
+
+.lines_div_section_about_us h2{
+    color: var(--second_font_color);
+    font-weight: 100;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+
+.section_aboute_us_right_div {
+    height: 400px !important;
+}
+
+@media(max-width: 1440px){
+    .section_aboute_us{
+        /* height: 1150px; */
+    }
+}
+
+
+@media(max-width: 1024px){
+
+    .section_aboute_us{
+        /* height: 1500px; */
+    }
+
+    .section_aboute_us .section_aboute_us_info{
+        flex-direction: column;
+    }
+
+    .section_aboute_us .container .section_aboute_us_info div {
+        width: 90%;
+    }
+
+    .lines_div_section_about_us >img{
+        display: none;
+    }
+
+}
+
+
+@media(max-width: 780px){
+
+    .section_aboute_us{
+        /* height: 2000px; */
+    }
+
+    .section_aboute_us .section_aboute_us_info{
+        flex-direction: column;
+    }
+
+    .section_aboute_us .container .section_aboute_us_info div {
+        width: 90%;
+    }
+
+}
+
+
+
+@media(max-width: 480px){
+
+    .section_aboute_us .container{
+        padding-top: 50px;
+    }
+
+}

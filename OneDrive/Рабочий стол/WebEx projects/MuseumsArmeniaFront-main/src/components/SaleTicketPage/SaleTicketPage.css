@@ -1,0 +1,178 @@
+.sale_ticket_page{
+    background-image: url('../../images/abouteUsBack.jpg');
+    background-position: top;
+    background-size: cover;
+    padding: 100px 0;
+    min-height: 100vh;
+}
+
+
+.sale_ticket_page p {
+    text-align: justify;
+}
+
+.sale_ticket_page .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.sale_ticket_page_block{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+.sale_ticket_page_block_info{
+    background-color: white;
+    width: 1200px;
+    padding: 30px 0;
+}
+
+.sale_ticket_page_block_info{
+    display: flex;
+}
+
+.sale_ticket_page_block_info > div{
+    width:50% ;
+}
+
+.sale_ticket_page_block_info_right_img_div{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    padding-right: 74px;
+}
+
+.sale_ticket_page_block_info_right_img_div  img{
+    object-fit: contain;
+    width: 100%;
+    
+}
+
+.sale_ticket_page_block_info_right{
+    border-left: 2px solid var(--second_font_color);
+    padding: 24px;
+    padding-right: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.sale_ticket_page_block_info_right_text_div{
+    position: relative;
+}
+
+.sale_ticket_page_block_info_left{
+    padding: 40px;
+    padding-right: 24px;
+    padding-left: 60px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.sale_ticket_page .sale_ticket_page_block_info_left_title{
+    font-weight: bold;
+    text-align: left;
+}
+
+
+.sale_line_1{
+    width: 150px;
+    position: absolute;
+    top: 10px;
+    right: -7px;
+}
+
+.sale_line_2{
+    width: 150px;
+    position: absolute;
+    top: -30px;
+    left: -30px;
+}
+
+.sale_ticket_page_block_title h2{
+    color: var(--main_font_color);
+    letter-spacing: 3px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.lines_div_sale_ticket{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.sale_ticket_page_block_info_right_text_div ul{
+    list-style: disc;
+    padding-left: 20px
+}
+
+.sale_ticket_page_block_info_left ul{
+    list-style: disc;
+    padding-left: 20px
+}
+
+.sale_ticket_page_block_info_left_list, .sale_ticket_page_block_info_left_list{
+      list-style-type: decimal; /* ներքին ցուցակները նույնպես թվերով */
+    padding-left: 20px;
+}
+
+
+@media(max-width: 1224px){
+    .sale_ticket_page_block_info{
+        width: 1050px;
+    }
+}
+
+
+@media(max-width: 1024px){
+    .sale_ticket_page_block_info{
+        flex-direction: column;
+        align-items: center;
+        width: 700px;
+    }
+
+    .sale_ticket_page_block_info >div{
+        width: 80%;
+        border: none !important;
+    }
+    .sale_line_1, .sale_line_2{
+        display: none;
+    }
+
+    .sale_ticket_page_block_info_right{
+        padding-right: 24px;
+    }
+
+    .sale_ticket_page_block_info_left{
+        padding-left: 24px;
+    }
+
+    .lines_div_sale_ticket img{
+        display: none;
+    }
+}
+
+
+@media(max-width: 720px){
+    .sale_ticket_page_block_info{
+        flex-direction: column;
+        align-items: center;
+        width: 460px;
+    }
+}
+
+@media(max-width: 480px){
+    .sale_ticket_page_block_info{
+        width: 350px;
+    }
+}

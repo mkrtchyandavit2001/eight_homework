@@ -1,0 +1,628 @@
+.private_standart_ticket {
+  display: flex;
+  width: 90%;
+  background-color: white;
+  border-radius: 70px;
+  height: 80px;
+  align-items: center;
+  box-shadow: 0 12px 19px -5px #00000014;
+}
+
+.private_standart_ticket > div {
+  width: 40%;
+  height: 100%;
+}
+.private_standart_ticket_regions {
+  position: relative;
+}
+
+div.regions_input_div {
+  width: 20%;
+}
+
+.private_standart_ticket_regions > input:hover + ul {
+  transform: rotateX(0);
+}
+
+.private_standart_ticket_regions > input {
+  height: 100%;
+  background: transparent;
+  border: none;
+  outline: none;
+  padding: 40px;
+  padding-top: 25px;
+  border-radius: 70px;
+  width: 100%;
+  padding-left: 80px;
+}
+.private_standart_ticket_regions > input::placeholder {
+  color: gray;
+}
+
+.private_standart_ticket_regions > input:focus {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.055);
+}
+
+.private_standart_ticket_regions_list {
+  position: absolute;
+  top: 90px;
+  left: 0;
+  z-index: 99;
+  width: 100%;
+  background-color: white;
+  z-index: 99;
+  padding: 20px;
+  border-radius: 10px;
+  overflow: auto;
+  height: 230px;
+}
+
+.private_standart_ticket_regions_list::-webkit-scrollbar {
+  width: 0;
+}
+.private_standart_ticket_regions_list li {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  height: 30px;
+  padding: 20px 10px;
+  cursor: pointer;
+  color: #636363;
+  border-bottom: 1px solid #ecebeb;
+}
+
+.private_standart_ticket_regions_list li:hover {
+  background-color: #f6f5f5;
+}
+
+.private_standart_ticket_museums {
+  position: relative;
+  height: 100%;
+}
+
+.private_standart_ticket_museums > input {
+  height: 100%;
+  background: transparent;
+  border-radius: 70px;
+  border: none;
+  outline: none;
+  padding: 40px;
+  padding-top: 25px;
+  padding-left: 80px;
+  width: 100%;
+}
+
+.private_standart_ticket_museums > input::placeholder {
+  color: gray;
+}
+
+.private_standart_ticket_museums > input:focus {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.055);
+}
+
+.private_standart_ticket_museum_list {
+  position: absolute;
+  top: 90px;
+  left: 0;
+  z-index: 99;
+  min-width: 100%;
+  background-color: white;
+  z-index: 99;
+  padding: 20px;
+  border-radius: 10px;
+  overflow: auto;
+  height: 230px;
+}
+
+.private_standart_ticket_museum_list::-webkit-scrollbar {
+  width: 0;
+}
+
+.private_standart_ticket_museum_list li {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  min-height: 20px;
+  padding: 10px;
+  cursor: pointer;
+  color: #636363;
+  border-bottom: 1px solid #ecebeb;
+}
+
+.private_standart_ticket_museum_list li:hover {
+  background-color: #f6f5f5;
+}
+
+.private_standart_ticket_museums_private_block {
+  height: 100%;
+  background: transparent;
+  border-radius: 70px;
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 10px;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.private_standart_ticket_museums_private_block > span {
+  color: #aaaa;
+  padding-left: 30px;
+}
+
+.private_standart_ticket_museums_private_block_ticket_types {
+  position: absolute;
+  top: 90px;
+  left: 0;
+  background-color: white;
+  border-radius: 10px;
+  width: 100%;
+  padding: 20px 30px;
+  z-index: 99;
+  scrollbar-width: none;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.packet_div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Ստանդարտ/Հատուկ/Բաժանորդագրության անուն-տեքստ */
+.packet_div span {
+  font-size: 16px;
+}
+
+.packet_div_price {
+  color: var(--second_font_color);
+  font-size: 16px;
+}
+
+.packet_div_count {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-right: 12px;
+  padding-right: 4px;
+}
+
+.count_span {
+  color: gray;
+}
+
+span.color {
+  color: black;
+}
+
+.packet_div_count span {
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/* Հաշվիչի թիվը (0,1,2...)՝ 16px, ավելի specific selector-ով +/- կոճակների 20px-ը շրջանցելու համար */
+.packet_div_count span.count_span {
+  font-size: 16px;
+}
+
+.private_standart_ticket_museums_private_block_ticket_types_buy_div {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+  justify-content: center;
+}
+
+.private_standart_ticket_museums_private_block_ticket_types_buy_div button {
+  padding: 5px 10px;
+}
+
+.cart_error_message {
+  position: fixed;
+  top: 100px;
+  right: 50px;
+  color: red;
+  font-weight: 100;
+}
+
+.line_ticket {
+  border-left: 1px solid #aaaa;
+  height: 40px;
+  position: absolute;
+  right: 0;
+  top: 20px;
+}
+
+.line_ticket_left {
+  border-left: 1px solid #aaaa;
+  height: 40px;
+  position: absolute;
+  left: 0;
+  top: 20px;
+}
+
+.placeholder_div {
+  display: flex;
+  align-items: flex-end;
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #aaaa;
+  gap: 20px;
+  height: 100%;
+}
+
+.placeholder_div span:nth-of-type(1) {
+  position: absolute;
+  top: 30px;
+  left: 40px;
+}
+
+.placeholder_div p {
+  position: absolute;
+  top: 45px;
+  left: 80px;
+  font-size: 16px;
+  width: 110px;
+}
+
+.placeholder_div span svg path {
+  stroke: #aaaa;
+  fill: none;
+}
+
+.placeholder_div_ticket {
+  display: flex;
+  position: absolute;
+  align-items: center;
+  color: gray;
+  gap: 20px;
+  height: 80%;
+  padding-left: 40px;
+}
+
+.placeholder_div_ticket span svg path {
+  stroke: #aaaa;
+  fill: none;
+}
+
+.private_standart_ticket_museums_private_block_ticket_types_full_value {
+  display: flex;
+  justify-content: center;
+}
+
+.private_standart_ticket_museums_private_block_ticket_types_full_value span {
+  font-size: 16px;
+}
+
+.private_standart_ticket_museums_private_block_ticket_types_full_value span b {
+  color: gray;
+}
+
+.bay_ticket_btn,
+.add_cart_btn {
+  background-color: #d5aa72;
+  width: 100px;
+  color: white;
+  border: none;
+  font-size: 16px !important;
+  padding: 10px 16px;
+}
+
+.bay_ticket_btn:active,
+.add_cart_btn:active {
+  background-color: rgb(63, 61, 86);
+}
+
+.err_message_tickets {
+  color: red;
+}
+
+.App .placeholder_div p {
+  font-size: 16px;
+}
+
+/* =============== Responsive Enhancements =============== */
+
+/* General improvements for all sizes */
+.private_standart_ticket_regions_list,
+.private_standart_ticket_museum_list,
+.private_standart_ticket_museums_private_block_ticket_types {
+  /* կապույտ top-ի փոխարեն՝ կցվել ինպուտի իրական բարձրությանը */
+  top: calc(100% + 8px) !important;
+  max-height: min(50vh, 320px);
+  overflow: auto;
+  box-shadow: 0 12px 19px -5px #00000014;
+}
+
+/* Touch-friendly hit areas */
+
+/* Placeholder icon/text slightly tighter on smaller paddings */
+.placeholder_div span:nth-of-type(1) {
+  left: 24px;
+}
+
+.placeholder_div_ticket {
+  padding-left: 11px;
+}
+
+/* ====== ≥ 1200px (large desktops): keep as is but slightly resize container) ====== */
+/* @media (max-width: 1400px) {
+  .private_standart_ticket {
+    width: 90%;
+  }
+} */
+
+/* ====== ≤ 1200px (laptops/tablets landscape) ====== */
+@media (max-width: 1024px) {
+  .private_standart_ticket {
+    width: 100%;
+    border-radius: 40px;
+    height: 74px;
+  }
+
+  .private_standart_ticket > div {
+    width: 33.333%;
+    border-bottom: 1px solid #ecebeb;
+  }
+
+  div.regions_input_div {
+    width: 33.333%;
+  }
+
+  .private_standart_ticket_regions > input,
+  .private_standart_ticket_museums > input,
+  .private_tickets_events > input {
+    padding: 28px 24px 20px 64px; /* tighter */
+    /* font-size: 12px; */
+  }
+
+  .line_ticket,
+  .line_ticket_left {
+    height: 34px;
+    top: 20px;
+  }
+}
+
+/* ====== ≤ 992px (tablets portrait) ====== */
+@media (max-width: 992px) {
+  .private_standart_ticket {
+    gap: 8px;
+    height: auto; /* թույլ ենք տալիս բարձրությունը աճել */
+    padding: 10px;
+    flex-wrap: wrap; /* շարվածքը՝ 2 տող */
+    border-radius: 30px;
+  }
+
+  .private_standart_ticket > div,
+  div.regions_input_div {
+    width: 100%;
+    min-height: 64px;
+  }
+
+  .private_standart_ticket_museums_private_block {
+    order: 3; /* թող բիլեթների բլոկը գա երկրորդ տողում */
+    width: 100%;
+    min-height: 64px;
+  }
+
+  .placeholder_div span:nth-of-type(1) {
+    top: 22px;
+  }
+  .placeholder_div p {
+    top: 38px;
+    width: 140px;
+    font-size: 16px;
+  }
+
+  .line_ticket,
+  .line_ticket_left {
+    display: none;
+  }
+
+  .private_standart_ticket_museums_private_block_ticket_types {
+    padding: 16px;
+  }
+
+  .private_standart_ticket_museums_private_block_ticket_types_buy_div button {
+    width: 120px;
+    padding: 10px 14px;
+    font-size: 16px !important;
+    border-radius: 14px;
+  }
+}
+
+/* ====== ≤ 768px (phones large) ====== */
+@media (max-width: 768px) {
+  .private_standart_ticket {
+    padding: 12px;
+    gap: 10px;
+  }
+
+  .private_standart_ticket > div,
+  div.regions_input_div {
+    width: 100%; /* 1 սյուն՝ ամենը՝ լրիվ լայնքով */
+  }
+
+  .private_standart_ticket_regions > input,
+  .private_standart_ticket_museums > input {
+    padding: 22px 18px 16px 54px;
+    border-radius: 20px;
+  }
+
+  .placeholder_div span:nth-of-type(1) {
+    left: 18px;
+    top: 18px;
+  }
+  .placeholder_div p {
+    left: 54px;
+    top: 44px;
+    font-size: 16px;
+    /* width: auto; */
+  }
+
+  .private_standart_ticket_museums_private_block {
+    padding: 6px 8px;
+    border-radius: 20px;
+  }
+
+  .packet_div {
+    flex-wrap: wrap;
+    gap: 10px 14px;
+    align-items: center;
+  }
+
+  .packet_div_price {
+    order: 3;
+    width: 100%;
+  }
+
+  .packet_div_count {
+    /* order: 2; */
+    gap: 10px;
+  }
+
+  .private_standart_ticket_museums_private_block_ticket_types_full_value span {
+    font-size: 16px;
+  }
+
+  .bay_ticket_btn,
+  .add_cart_btn {
+    width: 100%;
+    max-width: 240px;
+    padding: 12px 18px;
+    font-size: 24px !important;
+    border-radius: 14px;
+  }
+
+  /* .private_standart_ticket_museums_private_block_ticket_types_buy_div {
+    flex-direction: column;
+    align-items: stretch;
+  } */
+}
+
+.standart_ticket_row {
+  border: 1px solid #ededed;
+  padding: 12px 10px;
+}
+
+.special_ticket_block {
+  width: 100%;
+  border: 1px solid #ededed;
+  padding: 12px 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.special_ticket_block_top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 14px;
+}
+
+.special_ticket_block_info {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.special_ticket_block_title {
+  color: #000000;
+  font-size: 16px;
+}
+
+.special_ticket_block_badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 6px;
+  background: rgba(218, 168, 106, 0.7);
+  color: #ffffff;
+  font-size: 16px;
+  width: fit-content;
+}
+
+.special_ticket_schedule_title {
+  text-align: center;
+  font-size: 16px;
+  color: #2d2d2d;
+  border-bottom: 1px solid #ededed;
+  padding-bottom: 4px;
+  margin-bottom: 8px;
+}
+
+.special_ticket_schedule_row {
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  color: #2d2d2d;
+  border-bottom: 0.5px solid #ededed;
+  padding-bottom: 6px;
+  margin-bottom: 6px;
+}
+
+.special_ticket_schedule_row:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.special_ticket_block_old_price {
+  text-decoration: line-through;
+  opacity: 0.85;
+}
+
+.attention {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 16px;
+  color: #999999;
+  text-decoration: underline;
+  margin-top: 4px;
+}
+
+/* ====== ≤ 576px (phones typical) ====== */
+@media (max-width: 576px) {
+  .private_standart_ticket {
+    padding: 10px;
+    border-radius: 18px;
+  }
+
+  .private_standart_ticket_museums_private_block_ticket_types {
+    border-radius: 12px;
+  }
+
+  .private_standart_ticket_regions_list,
+  .private_standart_ticket_museum_list {
+    padding: 12px;
+    border-radius: 12px;
+    max-height: 50vh;
+  }
+
+  .private_standart_ticket_regions_list li,
+  .private_standart_ticket_museum_list li {
+    /* padding: 12px 8px; */
+    gap: 12px;
+  }
+
+  .packet_div_count span {
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    font-size: 22px;
+  }
+}
+
+/* ====== ≤ 400px (very small phones) ====== */
+@media (max-width: 400px) {
+  .placeholder_div p {
+    display: none; /* պահպանենք մաքուր տեսքը ամենափոքր էկրաններին */
+  }
+}

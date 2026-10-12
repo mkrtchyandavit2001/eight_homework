@@ -1,0 +1,106 @@
+.MuseumOneShop-parHeader {
+   display: flex;
+   justify-content: space-between;
+   align-items: start;
+}
+
+.MuseumOneShop-parProducts {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: flex-start;
+   align-items: center;
+   gap: 50px 10px;
+   margin: 24px 0;
+}
+
+.ProductsBlock {
+   max-width: 210px;
+   height: 340px;
+}
+
+.ProductsBlock-img > img {
+   width: 100%;
+   height: 210px;
+}
+.ProductsBlock-description {
+   padding: 10px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   gap: 6px;
+   background-color: #f6f5f5;
+   height: 140px;
+   box-shadow: 0px 7px 13px -11px;
+}
+
+.ProductsBlock-description p {
+   font-family: globalFont;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 21px;
+   color: #575757;
+}
+
+.ProductsBlock-description-parPrice {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.ProductsBlock-description-btn {
+   font-family: globalFont;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 21px;
+   color: #ffffff;
+   border: none;
+   background-color: #3f3d56;
+   width: 100%;
+   padding: 10px;
+   cursor: pointer;
+}
+
+.productsErrorMessages {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100px;
+   font-family: globalFont;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 21px;
+   color: #3f3d56;
+   background-color: #f3f3f3;
+}
+
+.MuseumOneShop-pagination {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 40px 0;
+}
+.MuseumOneShop-pagination > .CustopPagination {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 20px;
+}
+.MuseumOneShop-pagination > .CustopPagination > li {
+   cursor: pointer;
+}
+.MuseumOneShop-pagination > .CustopPagination > li > a {
+   font-family: globalFont;
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 24px;
+}
+.MuseumOneShop-pagination > .CustopPagination > .previous > a,
+.MuseumOneShop-pagination > .CustopPagination > .next > a {
+   font-family: globalFont;
+   font-weight: 600;
+   font-size: 20px;
+   line-height: 24px;
+}
+.MuseumOneShop-pagination > .CustopPagination > .selected {
+   color: #b26705;
+}

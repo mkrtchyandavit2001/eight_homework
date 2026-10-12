@@ -1,0 +1,44 @@
+.private_ticket{
+   top: 620px;
+   width: 100%;
+}
+
+.private_ticket .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.private_ticket_type_div{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 35px;
+    width: 90%;
+}
+
+.private_ticket_type_div >button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+.private_ticket_type_div >button:hover{
+    color: var(--second_font_color);
+}
+
+
+.ticket_menu{
+    background-color: white;
+}
+
+@media(max-width: 1024px){
+    .private_ticket_type_div{
+        flex-direction: column;
+        gap: 10px;
+    }
+}

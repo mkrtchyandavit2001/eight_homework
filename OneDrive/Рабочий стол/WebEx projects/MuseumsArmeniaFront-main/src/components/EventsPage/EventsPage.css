@@ -1,0 +1,471 @@
+.events_page{
+    min-height: 100vh;
+    width: 100%;
+    background-image: url('../../images/previcyPolicyBackground_img.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 80px 0;
+}
+
+.events_page_block{
+    background-color: white;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+    width: 100%;
+}
+
+.events_page .container{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    padding-bottom: 100px;
+    padding-left: 86px;
+    padding-right: 86px;
+    align-items: center;
+}
+
+.event_page_items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    gap: 40px;
+    width: 100%;
+}
+
+.event_page_item{
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    
+}
+
+.event_page_item:hover .event_page_item_navigate_div{
+    display: flex;
+}
+
+.event_page_item_img_div{
+    height: 273px;
+    /* background-color: #D9D9D94D; */
+    position: relative;
+    width: 25%;
+}
+
+.event_page_item_img_div img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.event_page_item_info_div{
+    display: flex;
+    flex-direction: column;
+    /* gap: 12px; */
+    justify-content: space-between;
+    color: #575757;
+    width: 70%;
+}
+
+.event_page_item_info_div_description_div{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.event_page_item_info_div_title{
+    color: var(--second_font_color);
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.event_page_item_navigate_div{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    background-color: #d9d9d973;
+    display: none;
+    transition: all 1s;
+}
+
+.event_page_item_navigate_div_btn{
+    background-color: #D5AA72;
+    padding: 10px 30px;
+    color: white;
+    border: none;
+}
+
+.news_page_navigate_div_btn:hover{
+    background-color: #B28851;
+}
+
+.events_page_baner{
+    background-image: url('../../images/event_baner.png');
+    background-position: center;
+    background-size: cover;
+    height: 373px;
+    position: relative;
+}
+
+.events_page_dark{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.293);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.App .events_page_baner h1{
+    text-align: center;
+    font-size: 54px;
+    color: white;
+    font-weight: 700;
+}
+
+
+.App.small .events_page_baner h1{
+    font-size: 60px;
+}
+
+.App.medium .events_page_baner h1{
+    font-size: 65px;
+}
+
+.App.large .events_page_baner h1{
+    font-size: 75px;
+}
+
+.lines_div_events{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+
+
+
+.events_page_filter_div >div{
+    display: flex;
+    gap: 30px;
+    transition: all 1s;
+}
+
+.events_page_filter_region{
+    width: 375px;
+    height: 40px;
+    border-radius: 6px;
+    position: relative;
+}
+
+.events_page_filter_region_inp_div{
+    position: relative;
+    width: 100%;
+}
+
+.events_page_filter_region_inp_div >span{
+    position: absolute;
+    top: 13px;
+    right: 15px;
+}
+
+.events_page_filter_region_inp_div >input{
+    width: 100%;
+    height: 100%;
+    padding: 10px 16px;
+    outline: none;
+    border: 1px solid#DADADA;
+    border-radius: 6px;
+}
+
+.events_page_filter_region_list{
+    position: absolute;
+    top: 47px;
+    left: 0;
+    z-index: 99;
+    width: 100%;
+    background-color: white;
+    z-index: 99;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.184);
+    padding: 20px;
+    height: 230px;
+    overflow: auto;
+    
+}
+
+/* .events_page_filter_region_list::-webkit-scrollbar{
+    width: 10px;
+} */
+
+.events_page_filter_region_list li{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    height: 30px;
+    padding: 20px 10px;
+    cursor: pointer;
+    color: #636363;
+    border-bottom: 1px solid #ECEBEB;
+}
+
+.events_page_filter_region_list li:hover{
+    background-color: #F6F5F5;
+}
+.pagination_ul{
+    list-style-type: none;
+    display: flex;
+    gap: 16px;
+    margin: 0 auto;
+}
+
+.pagination_ul li{
+    padding: 2px 8px;
+    color: black;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+
+
+.events_page_filter_div{
+ width: 96%;
+ display: flex;
+ flex-direction: column;
+ gap: 50px;
+}
+
+.events_page_filter_museum{
+    width: 375px;
+    height: 40px;
+    border-radius: 6px;
+    position: relative;
+}
+
+.events_page_filter_museum_inp_div{
+    position: relative;
+    width: 100%;
+}
+
+.events_page_filter_museum_inp_div span{
+    position: absolute;
+    top: 13px;
+    right: 15px;
+}
+
+.events_page_filter_museum_inp_div >input{
+    width: 100%;
+    height: 100%;
+    padding: 10px 16px;
+    outline: none;
+    border: 1px solid#DADADA;
+    border-radius: 6px;
+}
+.App .events_page_filter_div_filter_icon{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: #636363;
+    width: 100px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.App.small .events_page_filter_div_filter_icon{
+    font-size: 25px;
+    width: 150px;
+}
+
+.App.medium .events_page_filter_div_filter_icon{
+    font-size: 30px;
+    width: 150px;
+}
+
+.App.large .events_page_filter_div_filter_icon{
+    font-size: 35px;
+    width: 150px;
+}
+
+
+.events_page_filter_museum_list{
+    position: absolute;
+    top: 47px;
+    left: 0;
+    z-index: 99;
+    width: 100%;
+    background-color: white;
+    z-index: 99;
+    padding: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.184);
+    height: 230px;
+    overflow: auto;
+}
+
+/* .events_page_filter_museum_list::-webkit-scrollbar{
+    width: 0;
+} */
+
+.events_page_filter_museum_list li{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    min-height: 30px;
+    padding: 20px 10px;
+    cursor: pointer;
+    color: #636363;
+    border-bottom: 1px solid #ECEBEB;
+}
+
+.events_page_filter_museum_list li:hover{
+    background-color: #F6F5F5;
+}
+
+.data_and_price_div_events{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.data_and_price_div_events span{
+    height: 16px;
+}
+.data_and_price_div_events span:nth-of-type(1){
+    border-right: 1px solid #575757;
+    padding-right: 10px;
+}
+
+
+
+
+
+.event_page_item_info_div p {
+    font-size: 14px;
+}
+
+.lines_div_event{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.lines_div_event > div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:50px
+}
+
+.lines_div_event h2{
+    font-weight: 500;
+    letter-spacing: 5px;
+    color: var(--main_font_color);
+    text-transform: uppercase;
+    
+}
+
+.lines_div_event h3{
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: var(--main_font_color);
+    text-align: center;
+}
+
+
+.event_page_item_info_div_btn{
+    background-color: #D5AA72;
+    padding: 10px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 150px;
+}
+
+.event_page_item_info_div_btn:hover{
+    background-color: #B28851;
+}
+
+
+
+@media(max-width: 1024px){
+    .event_page_item{
+        flex-direction: column;
+    }
+    .event_page_item >div{
+        width: 100%;
+    }
+
+    .event_page_item_info_div_btn{
+       margin-top: 30px;
+    }
+}
+
+@media(max-width: 730px){
+    .event_page_item{
+        width: 90%;
+    }
+
+    .event_page_items{
+        justify-content: center;
+    }
+
+    .event_page_item_img_div{
+        height: 400px;
+    }
+
+    .events_page .container{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .events_page_filter_region{
+        width: 90%;
+    }
+    .events_page_filter_div >div{
+        flex-direction: column;
+        align-items: center;
+    }
+    .events_page_filter_museum{
+        width: 90%;
+    }
+
+
+    .App .events_page_baner h1{
+        font-size: 40px;
+    }
+
+    .events_page_block{
+        padding: 40px 10 ;
+    }
+    .lines_div_event img{
+        display: none;
+    }
+}
+
+
+@media(max-width: 485px){
+    .event_page_item{
+        width: 320px;
+    }
+    
+
+    .events_page_block{
+        padding: 30px 10px;
+    }
+
+    .event_page_item_img_div{
+        height: 300px;
+    }
+}

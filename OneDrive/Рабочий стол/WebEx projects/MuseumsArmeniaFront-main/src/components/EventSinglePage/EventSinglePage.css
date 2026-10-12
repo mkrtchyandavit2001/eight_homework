@@ -1,0 +1,325 @@
+.event_single_page{
+    min-height: 100vh;
+}
+
+.event_single_page .react-multiple-carousel__arrow{
+    background-color: var(--second_font_color) !important;
+}
+
+.event_single_page .react-multiple-carousel__arrow:hover{
+    background-color: #3F3D56 !important;
+}
+
+.event_single_page .container{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    padding-top: 32px;
+    padding-bottom: 100px;
+    padding-left: 86px;
+    padding-right: 86px;
+}
+
+.event_single_page_block{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+
+
+.event_single_page_item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.event_single_page_item_img_div{
+    width: 451px;
+    height: 324px;
+    background-color: #F0F0F0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.event_single_page_item_img_div >img{
+    width: 403px;
+    height: 276px;
+}
+
+.event_single_page_item_img_div_info_div{
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    
+}
+
+.event_single_page_item_img_div_info_div_description{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 65%;
+    align-items: flex-start;
+}
+
+.event_single_page_item_img_div_info_div button{
+    padding: 12px 138px;
+    background-color: #D5AA72;
+    border: none;
+    outline: none;
+    color: var(--main_font_color);
+}
+
+
+.event_single_page_item_img_div_info_div button:hover{
+    background-color: #B28851;
+}
+
+.event_single_page_item_img_div_info_div button:active{
+    background-color: #3F3D56;
+}
+
+.event_single_page_item_img_div_info_div_description h3{
+    font-weight: 400;
+}
+
+.event_single_page_item_img_div_info_div_description p{
+    color: #575757;
+}
+
+.event_single_page_item_img_div_info_div_info_location{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    -webkit-box-shadow: 0px 3px 2px 0px rgba(0,0,0,0.24);
+    -moz-box-shadow: 0px 3px 2px 0px rgba(0,0,0,0.24);
+    box-shadow: 0px 3px 2px 0px rgba(0,0,0,0.24);
+    padding: 20px;
+}
+
+.single_event_museum_name{
+    color: #575757;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+
+.event_single_page_item_img_div_info_div_info{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.single_event_location_and_phone_div {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+
+.single_event_location_and_phone_div >div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.event_single_page_item_img_div_info_div_info_date{
+    color: #575757;
+}
+
+.event_single_page_item_img_div_info_div_info_date_and_price{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    -webkit-box-shadow: 0px 3px 2px 0px rgba(0,0,0,0.24);
+    -moz-box-shadow: 0px 3px 2px 0px rgba(0,0,0,0.24);
+    box-shadow: 0px 3px 2px 0px rgba(0,0,0,0.24);
+    padding: 20px;
+}
+
+.event_single_page_item_img_div_info_div_info_price_div{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.event_single_page_item_img_div_info_div_info_price, .event_single_page_item_img_div_info_div_info_invite{
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+    position: relative;
+}
+
+.event_single_page_item_img_div_info_div_info_invite_txt{
+    color: #575757;
+}
+
+.events_items .react-multi-carousel-dot-list{
+    display: none;
+}
+
+.more_events{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.more_events h3{
+    font-weight: 400;
+}
+
+.more_event{
+    width: 256px;
+}
+.more_event:hover .more_event_img_div .event__reade_more_div{
+    display: flex;
+}
+
+.more_event_img_div{
+    width: 100%;
+    height: 250px;
+    padding: 20px;
+    background-color: #d9d9d96e;
+    position: relative;
+}
+
+.event__reade_more_div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    background-color: #e7e7e767;
+}
+
+.event__reade_more_div button{
+    padding: 7px 40px;
+    background-color: #D5AA72;
+    border: none;
+    outline: none;
+    color: var(--main_font_color);
+    cursor: pointer;
+}
+
+.event__reade_more_div button:hover{
+    background-color: #B28851;
+}
+
+.event__reade_more_div button:active{
+    background-color: #3F3D56;
+}
+
+
+.more_event_botom{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.more_event_botom >span{
+    color: var(--second_font_color);
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.more_event_botom div{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.more_event_botom_date{
+    border-right: 1px solid black;
+    padding-right: 10px;
+}
+
+.more_event_botom_price{
+    color: var(--second_font_color);
+}
+
+.more_event_img_div img{
+    height: 100%;
+}
+
+.event_single_page_item_img_div_info_div_info_date_div{
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.lines_div_events h1 {
+    color: var(--second_font_color);
+    font-weight: 400;
+}
+
+
+@media(max-width: 1024px){
+    .event_single_page_item_img_div_info_div{
+        flex-direction: column-reverse;
+    }
+
+    .event_single_page_item_img_div_info_div_description{
+        width: 100%;
+    }
+
+    .event_single_page_item_img_div_info_div_info{
+        width: 100%;
+        flex-direction: row;
+    }
+
+    .event_single_page_item_img_div_info_div_info >div{
+        width: 50%;
+    }
+}
+
+@media(max-width: 780px){
+
+    .event_single_page_item_img_div_info_div_info{
+        width: 100%;
+        flex-direction: column;
+    }
+    .event_single_page_item_img_div_info_div_info >div{
+        width: 100%;
+    }
+
+    .event_single_page .container{
+        padding-left: 56px;
+        padding-right: 56px;
+    }
+
+}
+
+@media(max-width: 480px){
+
+    .event_single_page_item_img_div_info_div button{
+        padding: 8px 50px;
+    }
+
+    .event_single_page_item_img_div{
+        width: 350px;
+        height: 250px;
+    }
+    
+    .event_single_page_item_img_div >img{
+        width: 300px;
+        height: 200px;
+    }
+
+    .event_single_page .container{
+        padding-left: 26px;
+        padding-right: 26px;
+    }
+
+}

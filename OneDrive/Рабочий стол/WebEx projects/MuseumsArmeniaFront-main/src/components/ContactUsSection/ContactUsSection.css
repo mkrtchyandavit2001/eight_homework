@@ -1,0 +1,158 @@
+.contact_us_section {
+  /* margin: 250px 0; */
+  background-image: url('../../images/contact_us_back.png');
+  background-position: top right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1000px;
+  padding-top: 150px;
+}
+
+.contact_us_section .container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100%;
+}
+
+.contact_us_section_block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1200px;
+  height: 400px;
+  background-color: white;
+  padding: 50px;
+}
+
+.contact_us_section_block_contact_div {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.contact_us_section_block_contact_div h3 {
+  color: gray;
+  letter-spacing: 10px;
+  font-weight: 100;
+}
+
+.contact_us_section_block_contact_div a {
+  color: gray;
+}
+
+.contact_us_section_block_contact_div a:hover {
+  color: var(--second_font_color);
+}
+
+.feedBack {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px;
+}
+
+.phone_email_div {
+  display: flex;
+  gap: 20px;
+}
+
+.feedBack input {
+  outline: none;
+  border: none;
+  border-bottom: 1px solid gray;
+  background: transparent;
+  width: 240px;
+}
+
+.feedBack .name-inp input {
+  width: 500px;
+}
+
+.feedBack p {
+  color: red;
+}
+
+.contact_us_section_block_contact_div a {
+  display: flex;
+  gap: 20px;
+}
+
+/* //////////////H////////// */
+#message {
+  width: 500px;
+  border: 1px solid #808080;
+}
+#message:focus {
+  outline: none;
+}
+/* //////////////H-end////////// */
+
+@media (max-width: 1024px) {
+  .contact_us_section_block {
+    flex-direction: column;
+    gap: 50px;
+    height: 800px;
+  }
+  .phone_email_div {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .feedBack .name-inp input {
+    width: 300px;
+  }
+
+  .feedBack input {
+    width: 300px;
+  }
+
+  .contact_us_section {
+    height: 950px;
+  }
+
+  .contact_us_section_block_contact_div {
+    width: 80%;
+  }
+
+  .feedBack {
+    width: 80%;
+  }
+  #message {
+    width: 300px;
+  }
+}
+
+@media (max-width: 480px) {
+  
+  .feedBack .name-inp input {
+    width: 200px;
+  }
+
+  .feedBack input {
+    width: 200px;
+  }
+
+  .contact_us_section_block_contact_div {
+    width: 80%;
+  }
+
+  .feedBack {
+    width: 80%;
+  }
+  #message {
+    width: 200px;
+  }
+
+  .contact_us_section_block{
+    padding: 50px 0;
+    /* height: 600px; */
+  }
+
+  .contact_us_section{
+    height: 1050px;
+  }
+}

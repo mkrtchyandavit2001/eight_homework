@@ -1,0 +1,242 @@
+.all_news {
+  position: relative;
+  background-image: url('../../images/shopBackPhoto.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 80px 0;
+}
+
+.all_news_contain{
+  background-color: #FFFFFF;
+  padding: 50px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.news-box_texts_div {
+  width: 100%;
+}
+
+.input-search-buttonn_news{
+  background-color: #D5AA72;
+  color: #FFFFFF;
+  padding: 7px 16px;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  margin-left: 25px;
+}
+/* .backImage {
+  background-image: url('./../../images/news_backImage.jpg');
+  background-repeat: no-repeat;
+  height: 70vh;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin-bottom: 40px;
+} */
+/* .backImage_title {
+  font-size: 28px;
+} */
+
+.form_newses {
+  text-align: start;
+  display: flex;
+  /* flex-wrap: wrap ; */
+  /* justify-content: center; */
+  gap: 10px;
+}
+.form_button {
+  background-color: #e2e2e2;
+  color: #000;
+  border: 0;
+  padding: 7px 25px;
+  margin-left: 22px;
+  cursor: pointer;
+}
+
+.form_input {
+  padding: 7px;
+  min-width: 25%;
+  border: 1px solid #AAAA;
+  border-radius: 5px;
+}
+.form_input:focus {
+  outline: none;
+  /* border: none; */
+}
+/* //////////////////////////////// */
+
+.newsess {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: 40px;
+  /* margin-top: 70px; */
+  margin-bottom: 60px;
+  /* padding: 20px; */
+}
+.newsess_start {
+  display: flex;
+  justify-content: start;
+  flex-wrap: wrap;
+  column-gap: 30px;
+  row-gap: 130px;
+  margin-bottom: 180px;
+  margin-left: 35px;
+}
+.news_box{
+  width: 256px;
+}
+
+
+.news_box:hover .news_page_navigate_div{
+  display: flex;
+}
+
+.news_box-image{
+  padding: 32px 25px;
+  height: 273px;
+  background-color: #D9D9D94D;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  gap: 20px;
+  position: relative;
+}
+
+
+
+.news_box-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.news_page_navigate_div{
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  background-color: #d9d9d973;
+  display: none;
+  transition: all 1s;
+}
+
+
+.news_page_navigate_div_btn{
+  background-color: #D5AA72;
+  padding: 10px 30px;
+  color: white;
+  border: none;
+}
+
+.event_page_item_navigate_div_btn:hover{
+  background-color: #B28851;
+}
+
+.news_box_title {
+  width: 90%;
+  background-color: white;
+  position: absolute;
+  bottom: -45px;
+  left: 0;
+  padding: 10px;
+  min-height: 90px;
+  /* box-shadow: 0 0 3px rgba(0, 0, 0, 0.253); */
+}
+
+.news_box_title span {
+  color: var(--second_font_color);
+}
+
+/* //////////////pagination////////// */
+.pagination {
+  margin-bottom: 25px;
+}
+.pagination_none {
+  display: none;
+}
+.paginationn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  font-weight: 600;
+  color: #3f3d56;
+}
+.page-items {
+  padding: 6px 10px;
+  cursor: pointer;
+}
+/* .page-link {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+} */
+.page-items:hover {
+  background-color: #dbdada;
+}
+.prev-item {
+  /* padding: 6px 8px; */
+  cursor: pointer;
+}
+.next-item {
+  padding: 6px 8px;
+  cursor: pointer;
+}
+.break-item {
+  padding: 6px 8px;
+  cursor: pointer;
+}
+.active-itemm {
+  /* background-color: var(--second_font_color); */
+  color: #b26705;
+  font-weight: 600;
+}
+.page-link {
+  padding: 6px 2px;
+}
+
+.all_news .container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+    padding-bottom: 100px;
+    padding-left: 86px;
+    padding-right: 86px;
+    gap: 32px;
+  
+}
+
+
+
+@media (max-width: 768px){
+  .all_news .container{
+    padding-left: 46px;
+    padding-right: 46px;
+  }
+
+  .newsess_start{
+    justify-content: center;
+    margin-left: 0;
+  }
+}
+
+
+@media (max-width: 768px){
+  .all_news .container{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}

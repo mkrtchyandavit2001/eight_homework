@@ -1,0 +1,162 @@
+.contactWithUs_pagee {
+  min-height: 100vh;
+  background-image: url('../../images/previcyPolicyBackground_img.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 80px 0;
+}
+
+.contactWithUs_page_block_infoo {
+  background-color: white;
+  width: 1200px;
+  padding: 30px 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.contactWithUs_title {
+  width: 100%;
+  text-align: center;
+  color: #AAAA;
+  text-transform: uppercase;
+  font-weight: 100;
+}
+
+.ContactWithUs_map {
+  width: 85%;
+  margin: 0 auto;
+  margin-top: 22px;
+}
+/* .ContactWithUs_map img {
+  width: 100%;
+} */
+
+.ContactWithUs_info_div {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.ContactWithUs_info_All_divs {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.ContactWithUs_info_div_divs {
+  width: 32%;
+  display: flex;
+  gap: 15px;
+}
+.ContactWithUs_info_div_divs_texts {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.ContactWithUs_info_div_divs_texts span {
+  width: 100%;
+}
+
+/* /////////////// */
+.ContactWithUs_contact_all {
+  width: 100%;
+  text-align: center;
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+}
+
+.ContactWithUs_contact_all .feedBack {
+  align-items: center;
+}
+
+.ContactWithUs_contact_name {
+  width: 60%;
+  height: 44px;
+  margin-top: 16px;
+  margin-bottom: 14px;
+  border: 1px solid #aaaaaa99;
+  padding: 7px;
+}
+.ContactWithUs_contact_name:focus {
+  outline: none;
+}
+.ContactWithUs_contact_phone_email_all {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+}
+.ContactWithUs_contact_phone_email {
+  width: 29.666%;
+  height: 44px;
+  border: 1px solid #aaaaaa99;
+  padding: 7px;
+}
+.ContactWithUs_contact_phone_email {
+  outline: none;
+}
+.ContactWithUs_contact_textarea {
+  width: 60%;
+  margin-top: 16px;
+  border: 1px solid #aaaaaa99;
+  padding: 7px;
+}
+.ContactWithUs_contact_textarea:focus {
+  outline: none;
+}
+/* // */
+.ContactWithUs_contact_button {
+  background-color: #d5aa72;
+  border: none;
+  outline: none;
+  color: var(--main_font_color);
+  padding: 6px 33px;
+  cursor: pointer;
+  margin-top: 16px;
+}
+
+.ContactWithUs_contact_button:hover {
+  background-color: #b28851;
+}
+
+@media (max-width: 1240px) {
+  .contactWithUs_page_block_infoo {
+    width: 1000px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .contactWithUs_page_block_infoo {
+    flex-direction: column;
+    align-items: center;
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .contactWithUs_page_block_infoo {
+    width: 460px;
+  }
+  .ContactWithUs_info_div {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  .ContactWithUs_info_div_divs {
+    width: 100%;
+    display: flex;
+    gap: 15px;
+  }
+  .ContactWithUs_contact_all {
+    margin-top: 50px;
+  }
+}
+
+@media (max-width: 480px) {
+  .contactWithUs_page_block_infoo {
+    width: 350px;
+  }
+}

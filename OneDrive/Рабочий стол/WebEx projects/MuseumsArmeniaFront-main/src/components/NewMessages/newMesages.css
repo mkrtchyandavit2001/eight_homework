@@ -1,0 +1,287 @@
+.messages_add {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 20px;
+}
+
+.MessagesBlock {
+   height: 100%;
+}
+.messages_add-input {
+   flex-grow: 4;
+   min-height: 50px;
+   padding: 0 10px 0 10px;
+}
+
+.NotUserMessages-form {
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+}
+
+.email-inp-messages {
+   padding-left: 24px;
+}
+
+.messages_block-inpEmail {
+   border: none;
+   /* box-shadow: -7px 5px 8px -6px; */
+   /* border-radius: 5px; */
+   width: 60%;
+   padding: 10px;
+   background-color: #3f3d56;
+   color: #ffffff;
+   margin-left: 15px;
+}
+.messages_block-inpEmail:focus {
+   outline: none; /* Убрать контур фокуса по умолчанию */
+   border: none; /* Установить желаемый border */
+}
+
+.messages_block-textArea {
+   resize: none;
+   width: 100%;
+   height: 80px;
+   overflow: auto;
+   border: none;
+   /* box-shadow: 0px 0px 26px -6px; */
+   /* border-radius: 10px; */
+   padding: 10px;
+   background-color: #f6f5f5;
+}
+
+.error_textarea {
+   color: red;
+}
+
+.messages_block-textArea:focus {
+   outline: none; /* Убрать контур фокуса по умолчанию */
+   border: none; /* Установить желаемый border */
+}
+
+.modal:hover {
+   width: '100%';
+}
+
+/* .bigPar-MessagesModal  .ReactModal__Overlay {
+   background-color: inherit !important;
+} */
+.close-Messages {
+   position: absolute;
+}
+
+.child_modall {
+   background-color: #ededed;
+   height: 100%;
+   position: relative;
+   /* border: 1px solid #cea670; */
+   /* padding: 10px; */
+   border-radius: 10px;
+}
+
+.MessagesModal-section {
+   height: 92%;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+}
+.messagesModal-close {
+   width: 30px;
+   height: 30px;
+   border-radius: 50px;
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+   cursor: pointer;
+   color: #b26705;
+   width: 100%;
+   padding: 0 11px;
+}
+
+/* bot ////////////////////////////////////////////// */
+
+.par-avatar_bot {
+   display: flex;
+   justify-content: start;
+   align-items: center;
+   gap: 10px;
+}
+
+.avatar_bot {
+   width: 60px;
+   height: 60px;
+   border-radius: 50px;
+   background-size: cover;
+   background-position: center;
+}
+
+.par_type {
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+   height: 400px;
+   overflow: auto;
+   /* padding-right: 5px; */
+   transition: 0.4s;
+   padding: 10px;
+}
+
+.par_type::-webkit-scrollbar {
+   width: 2px;
+}
+.par_type::-webkit-scrollbar-thumb {
+   background: #D9D9D9;
+   border-radius: 10px;
+}
+
+.par_type-block {
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+}
+
+.par_type-title {
+   text-decoration: 2px solid underline #cea670;
+}
+
+.par_type-list {
+   display: flex;
+   flex-direction: column;
+   gap: 5px;
+}
+
+.chatList-ul {
+   display: flex;
+   flex-direction: column;
+   gap: 30px;
+}
+.chatList-li {
+   cursor: pointer;
+   transition: 0.4s;
+   line-height: 30px;
+   border: 1px solid #e3e3e3;
+   width: 300px;
+   padding: 5px 15px;
+   letter-spacing: 2px;
+}
+
+.admin_messages {
+   display: flex;
+   justify-content: start;
+   flex-direction: column;
+   align-items: start;
+   max-width: 300px;
+   background-color: #ffffff;
+   border-radius: 10px 10px 10px 0;
+}
+.admin_messages > span {
+   color: #667085;
+   /* border-radius: 10px 10px 10px 0; */
+   cursor: pointer;
+   transition: 0.4s;
+   line-height: 30px;
+   letter-spacing: 2px;
+   padding: 0 10px;
+}
+.admin_messages > span:hover {
+   color: #3f3d56;
+}
+
+.user_messages {
+   display: flex;
+   flex-direction: column;
+   justify-content: end;
+   flex-direction: column;
+   align-items: end;
+   max-width: 300px;
+   background-color: #3f3d56;
+   border-radius: 10px 10px 0 10px;
+   align-self: end;
+}
+.user_messages > span {
+   color: #fdfdff;
+   /* border-radius: 10px 10px 10px 0; */
+   cursor: pointer;
+   transition: 0.4s;
+   line-height: 30px;
+   letter-spacing: 2px;
+
+   padding: 0 10px;
+   text-align: end;
+}
+
+.chatBotHint_list {
+   transition: 0.4s;
+   line-height: 30px;
+   border: 1px solid #e3e3e3;
+   max-width: 300px;
+   padding: 5px 15px;
+   letter-spacing: 2px;
+   border-radius: 10px 10px 10px 0;
+   background-color: #ffffff;
+}
+.chatBotHint_list > li {
+   color: #667085;
+}
+
+.sendMessages_btn {
+   /* width: 100%; */
+   /* height: 44px; */
+   background-color: inherit;
+   border: none;
+   outline: none;
+   /* color: var(--main_font_color); */
+   position: absolute;
+   /* bottom: 24px; */
+   right: 16px;
+   top: 30px;
+   cursor: pointer;
+}
+
+.warring_messages {
+   height: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap: 20px;
+}
+
+.warring_messages-button {
+   display: flex;
+   gap: 20px;
+}
+
+.StartMessagesBlock {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+.StartMessagesBlock-child {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   max-width: 320px;
+   gap: 10px;
+}
+.Startmessages-textBlock {
+   padding: 10px;
+   text-align: center;
+}
+.Startmessages-textBlock > p {
+   font-size: 13px;
+}
+
+.Startmessages-Button {
+   width: 100%;
+   background-color: #3f3d56;
+   padding: 13px 0;
+   line-height: 20px;
+   color: #fdfdff;
+   font-size: 15px;
+   font-family: DM sans-serif;
+   cursor: pointer;
+}

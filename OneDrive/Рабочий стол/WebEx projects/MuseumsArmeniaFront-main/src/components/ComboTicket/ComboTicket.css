@@ -1,0 +1,208 @@
+.ComboTicket_all {
+  min-height: 100vh;
+}
+.ComboTicket_topDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.ComboTicket_topDiv_div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  margin-top: 18px;
+  margin-bottom: 16px;
+}
+
+.ComboTicket_topDiv_div_title {
+  color: #d5aa72;
+}
+.ComboTicket_topDiv_text {
+  padding: 16px 8px;
+  border-radius: 6px;
+  box-shadow: 0px 2px 3px 0px #00000014;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+/* ///////////////////////////// */
+.ComboTickets_bottom_all {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  row-gap: 41px;
+  padding: 10px;
+  margin-top: 50px;
+  margin-bottom: 70px;
+  cursor: pointer;
+}
+
+.ComboTickets_bottom {
+  /* border: 1px solid black; */
+  width: 19%;
+  min-width: 260px;
+}
+.ComboTickets_bottom.selected .ComboTickets_bottom_blueBox_div_round {
+  background-color: #d5aa72; /* Change background color to red when selected */
+}
+.ComboTickets_bottom.selected .ComboTickets_bottom_img {
+  background-color: #eeddc780; /* Change background color to red when selected */
+}
+
+/* //// */
+.ComboTickets_bottom_img {
+  background-color: #d9d9d966;
+}
+
+.ComboTickets_bottom_img img {
+  width: 100%;
+  height: 240px;
+  padding: 24px 22px;
+  object-fit: cover;
+}
+
+/* ///// */
+.ComboTickets_bottom_location {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 10px 0 10px 5px;
+}
+.ComboTickets_bottom_location img {
+  width: 10px;
+  height: 15px;
+}
+.ComboTickets_bottom_location p {
+  font-weight: 500;
+}
+/* ///////////////////////////// */
+.ComboTickets_bottom_blueBox {
+  background-color: #747c90;
+  color: #ffffff;
+  padding: 14px 20px 10px 6px;
+  /* background: linear-gradient(358.82deg, #211e41 1.59%, rgba(9, 9, 9, 0.09) 53.4%); */
+  background: linear-gradient(85.64deg, #747c90 12.64%, #49536e 68.96%);
+}
+.ComboTickets_bottom_blueBox_price {
+  font-weight: 300;
+}
+
+.ComboTickets_bottom_blueBox_div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 9px;
+  height: 60px;
+}
+
+.ComboTickets_bottom_blueBox_div_round {
+  width: 25px;
+  height: 25px;
+  border: 0.5px solid #b26705;
+  border-radius: 50%;
+  background-color: #ffffff;
+}
+
+/* /////////////////////////////////////////// */
+.ticketBuyCard_all {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 22px;
+}
+.ticketBuyCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  padding: 24px;
+  box-shadow: 0px 2px 3px 0px #00000014;
+  width: max-content;
+}
+
+.ticketBuyCard_top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 100px;
+}
+
+.ticketBuyCard_top_div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.ticketBuyCard_minusBtn {
+  box-shadow: 0px 2px 3px 0px #00000014;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.ticketBuyCard_plusBtn {
+  cursor: pointer;
+}
+
+/* // */
+.ticketBuyCard_bottom {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+
+.ticketBuyCard_bottom_btn {
+  min-width: 150px;
+  padding: 15px 0px;
+  background-color: #d5aa72;
+  color: #ffffff;
+  text-align: center;
+  cursor: pointer;
+}
+.ticketBuyCard_bottom_btn_blue{
+  min-width: 150px;
+  padding: 15px 0px;
+  background-color: #3F3D56;
+  color: #ffffff;
+  text-align: center;
+  cursor: pointer;
+}
+
+@media (max-width: 1380px) {
+  .ComboTickets_bottom_all {
+    padding: 17px;
+  }
+  .ComboTickets_bottom {
+    width: 24%; 
+    min-width: 260px;
+  }
+}
+
+@media (max-width: 1178px) {
+  .ComboTickets_bottom {
+    width: 32%; 
+    min-width: 260px;
+  }
+}
+
+@media (max-width: 844px) {
+  .ComboTickets_bottom_all {
+    justify-content: center;
+  }
+  .ComboTickets_bottom {
+    width: 38%; /* Adjust width as needed */
+    min-width: 260px;
+  }
+}
+
+@media (max-width: 569px) {
+  .ComboTickets_bottom {
+    width: 50%; /* Adjust width as needed */
+    min-width: 260px;
+  }
+}

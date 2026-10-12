@@ -1,0 +1,59 @@
+.private_united_ticket_museum_list{
+    position: absolute;
+    top: 90px;
+    left: 0;
+    z-index: 99;
+    width: 100%;
+    background-color: white;
+    z-index: 99;
+    padding: 20px;
+    border-radius: 10px;
+    height: 230px;
+    overflow: auto;
+}
+
+.private_united_ticket_museum_list input{
+    accent-color: #3F3D56;
+}
+
+.private_united_ticket_museum_list::-webkit-scrollbar {
+    width: 0;
+}
+
+.private_united_ticket_museum_list >label{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+
+.private_united_ticket_museum_list label{
+    min-height: 40px;
+    border-bottom: 1px solid #ECEBEB;
+    padding: 10px;
+}
+
+.private_united_ticket_museum_list label li{
+    width: 100%;
+
+}
+
+
+.private_united_ticket_museum_list label:hover{
+    background-color: #F6F5F5;
+}
+
+
+.private_united_ticket_museum_list li{
+    display: flex;
+    gap: 20px;
+}
+
+.cart_error_message{
+    position: fixed;
+    top: 100px;
+    right: 50px;
+    color: red;
+    font-weight: 100;
+}
+

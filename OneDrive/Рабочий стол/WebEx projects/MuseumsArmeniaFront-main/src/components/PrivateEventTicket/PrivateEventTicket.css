@@ -1,0 +1,199 @@
+.private_standart_event_regions{
+    position: relative;
+}
+
+.private_tickets_events{
+    height: 100%;
+    border-radius: 70px;
+    position: relative;
+}
+
+.private_tickets_events input{
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    padding: 40px;
+    padding-top: 25px;
+    border-radius: 70px;
+    width: 100%;
+    padding-left: 54px;
+}
+
+.private_tickets_events >input:focus{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.055);
+}
+
+.private_tickets_events_list{
+    position: absolute;
+    top: 90px;
+    left: 0;
+    z-index: 99;
+    min-width: 160%;
+    background-color: white;
+    z-index: 99;
+    padding: 20px;
+    border-radius: 10px;
+    height: 230px;
+    overflow: auto;
+}
+
+
+.private_tickets_events_list::-webkit-scrollbar {
+    width: 0;
+}
+
+.private_tickets_events_list li{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    min-height: 20px;
+    padding: 10px 10px;
+    cursor: pointer;
+    color: #636363;
+    border-bottom: 1px solid #ECEBEB;
+}
+
+
+.private_tickets_events_list li:hover{
+    background-color: #F6F5F5;
+}
+
+.private_event_ticket_private_block_ticket_types{
+    position: absolute;
+    top: 90px;
+    left: -300px;
+    background-color: white;
+    border-radius: 20px;
+    min-width: 450px;
+    padding: 20px;
+    z-index: 99;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: 400px;
+    overflow: auto;
+}
+
+.private_event_ticket_private_block_ticket_types::-webkit-scrollbar {
+    width: 0;
+}
+
+
+.events_ticket_block{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.events_ticket_block_event{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    box-shadow: 0 12px 19px -5px #00000014;
+    padding: 30px 10px;
+}
+
+.events_ticket_block_event span{
+    text-align: center;
+}
+
+.events_ticket_block_event_time_div{
+    display: flex;
+    gap: 20px;
+}
+
+.ant-picker-active-bar{
+    display: none !important;
+}
+
+.cart_error_message{
+    position: fixed;
+    top: 100px;
+    right: 50px;
+    color: red;
+    font-weight: 100;
+}
+
+
+
+.private_tickets_events > input::placeholder{
+    color: gray;
+}
+.events_ticket_block_event_price{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.private_standart_ticket .Events_ticket_price{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    width: 70%;
+}
+.private_standart_ticket .Events_ticket_price p{
+    color: var(--second_font_color);
+    font-weight: bold;
+}
+
+.packet_div_count{
+    justify-content: center;
+    align-items: center;
+}
+
+.private_event_ticket_museums .private_standart_ticket_museum_list{
+    min-width: 160% ;
+}
+
+.events_ticket_block_event_price_div{
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.events_ticket_block_event_price_div_span{
+    width: 120px;
+    text-align: left !important;
+}
+
+
+.events_ticket_block_event_limit{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+
+.events_ticket_block_event_limit_span {
+    color: var(--second_font_color);
+}
+
+.bay_ticket_btn:disabled, .add_cart_btn:disabled{
+    background-color: #d9d9d9;
+    cursor: not-allowed;
+}
+
+.events_ticket_block_event_price_div .Events_ticket_price{
+    align-items: flex-start ;
+}
+
+
+.private_tickets_events .placeholder_div p{
+    left: 56px;
+}
+
+
+@media(max-width: 1024px){
+    .private_standart_ticket_museum_list{
+        min-width: 100% !important;
+    }
+
+    .private_event_ticket_private_block_ticket_types{
+        min-width: 0 !important;
+        max-width: 100% !important;
+        left: 0 !important;
+    }
+    
+}

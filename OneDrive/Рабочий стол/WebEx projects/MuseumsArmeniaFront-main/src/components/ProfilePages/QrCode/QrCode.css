@@ -1,0 +1,236 @@
+.QrCode_all{
+  min-height: 100vh;
+}
+
+.QrCode_title{
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  font-weight: 600;
+  padding-top: 30px;
+  padding-left: 30px;
+}
+
+.QrCode_all .container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-bottom: 50px;
+}
+
+.qr_code_items{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 0 80px;
+}
+
+/* --- Ticket card --- */
+.qr_code_item{
+  width: 340px;
+  min-height: 260px;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.168);
+  position: relative;
+  overflow: hidden;
+}
+
+/* Left side: text info */
+.qr_code_item_info_div{
+  flex: 1;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.qr_code_item_info_div_title{
+  font-weight: 700;
+  font-size: 13px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 4px;
+  text-transform: uppercase;
+}
+
+.qr_code_item_info_div_name_museum{
+  font-weight: 600;
+}
+
+.App .qr_code_item_info_div_name_museum{
+  font-size: 14px;
+  color: #212121;
+}
+.App.small .qr_code_item_info_div_name_museum{ font-size: 16px; }
+.App.medium .qr_code_item_info_div_name_museum{ font-size: 18px; }
+.App.large .qr_code_item_info_div_name_museum{ font-size: 20px; }
+
+.qr_code_item_info_div_addres_div{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.App .qr_code_item_info_div_addres{
+  font-size: 10px;
+  color: #575757;
+}
+.App.small .qr_code_item_info_div_addres{ font-size: 12px; }
+.App.medium .qr_code_item_info_div_addres{ font-size: 14px; }
+.App.large .qr_code_item_info_div_addres{ font-size: 16px; }
+
+.qr_code_item_price_block{
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  font-size: 11px;
+  color: #333;
+}
+
+.qr_code_item_price_block .final_price{
+  font-weight: 700;
+}
+
+.qr_code_item_valid_hours{
+  font-size: 10px;
+  color: #666;
+  margin-top: 4px;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.qr_code_item_valid_hours_title{
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 2px;
+}
+
+.qr_code_item_ticket_id{
+  position: absolute;
+  bottom: 8px;
+  left: 20px;
+  font-size: 10px;
+  color: #aaa;
+}
+
+.qr_code_item_img_div{
+  order: -1;
+  width: 100%;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+}
+
+.qr_code_item_img_div_qr_wrap{
+  background-color: #fff;
+  padding: 8px;
+  width: 90%;
+  height: auto;
+  aspect-ratio: 1 / 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.qr_code_item_img_div_qr_wrap > img{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.modal {
+  position: absolute;
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 2px 4px 0px #00000026;
+  right: 20px;
+  bottom: 45px;
+}
+
+.modal-content {
+  background-color: #fefefe;
+  padding: 13px;
+  max-height: 70%;
+  overflow-y: auto;
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+}
+
+.modal-content_div{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.modal-content_div_line{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 12px;
+  color: #9E9E9E;
+}
+.modal-content_div_line:hover{
+  color: #212121;
+  filter: brightness(0) saturate(100%) invert(11%) sepia(9%) saturate(3%) hue-rotate(359deg) brightness(96%) contrast(94%);
+}
+
+.price_and_openModal_div{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 20px;
+}
+
+.price_and_openModal_div >span{
+  cursor: pointer;
+}
+
+@media(max-width: 768px){
+  .qr_code_items{
+    padding: 0 40px;
+  }
+}
+
+@media(max-width: 480px){
+  .qr_code_items{
+    padding: 0 10px;
+  }
+
+  .qr_code_item{
+    width: 100%;
+    max-width: 340px;
+  }
+
+  .qr_code_item_img_div{
+    width: 100%;
+  }
+
+  .qr_code_item_img_div_qr_wrap{
+    width: 100px;
+    height: 100px;
+  }
+}
+.qr_code_item_valid_hours_row,
+.qr_code_item_valid_hours_title {
+  font-size: 11px !important;
+  line-height: 1.4;
+  margin: 0;
+}

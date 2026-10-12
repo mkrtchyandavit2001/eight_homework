@@ -1,0 +1,108 @@
+.login_page{
+    min-height: 100vh;
+}
+.login_page .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* padding-bottom: 700px;
+
+    padding-top: 300px; */
+}
+
+.login_block{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    width: 318px;
+}
+
+.login{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+}
+
+.login >div{
+    width: 100%;
+}
+
+.login >div p{
+    color: red;
+}
+
+.login_block_navigation{
+ display: flex;
+ width: 100%;
+}
+
+
+.login_block_navigation a{
+    color: black;
+    display: block;
+    width: 48%;
+    flex-direction: row;
+    text-align: center;
+}
+
+.active-element{
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+}
+
+.login input {
+    width: 100%;
+    height: 44px;
+    border: 1px solid gray;
+    padding: 5px;
+    outline: none;
+}
+
+.remember_me{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: left;
+    align-items: center;
+    gap: 10px;
+}
+.remember_me input{
+    width: 15px;
+    accent-color: #D5AA72;
+}
+
+.login_btn{
+    width: 100%;
+    height: 44px;
+    background-color: #D5AA72;
+    border: none;
+    outline: none;
+    color: var(--main_font_color);
+}
+
+.login_btn:hover{
+    background-color: #B28851;
+}
+
+.reset-password-send-email{
+    color: black;
+    text-decoration-line: underline;
+}
+
+.redirect_register{
+    color: black;
+    text-decoration-line: underline;
+}
+
+.login_error_message{
+    color: red;
+}
+
+
+/* @media(max-width: 1024px){
+    .login_page .container{
+        padding-bottom: 750px;
+        padding-top: 300px;
+    }
+} */

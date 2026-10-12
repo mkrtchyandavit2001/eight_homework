@@ -1,0 +1,171 @@
+.faq_page{
+    min-height: 100vh;
+    background-image: url('../../images/previcyPolicyBackground_img.png');
+    background-position: bottom;
+    background-size: cover;
+    padding: 100px 0;
+}
+
+
+.faq_page .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .faq_page_block{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+  }
+  
+  .faq_page_block_info{
+    background-color: white;
+    width: 80%;
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+  }
+  
+
+  .faq_page_block_info_top{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 20px;
+  }
+
+  .faq_page_block_info_top >div{
+    width: 40%;
+  }
+
+  .faq_page_block_info_top_item{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+
+  .faq_page_block_info_top_item .faq_page_block_info_top_item_txt{
+    border-left: 1px solid var(--second_font_color);
+    padding-left: 40px;
+    height: 80px;
+    color:#615F5F
+  }
+
+  .App.medium .faq_page_block_info_top_item .faq_page_block_info_top_item_txt{
+    height: 170px;
+  }
+
+  .App.large .faq_page_block_info_top_item .faq_page_block_info_top_item_txt{
+    height: 200px;
+  }
+
+ .faq_page_block_info_top_item_title{
+  display: flex;
+  gap: 25px;
+  margin-left: -10px;
+ }
+
+ .faq_page_block_title .lines_div h2{
+    color: var(--main_font_color);
+    letter-spacing: 3px;
+    font-weight: 500;
+    text-align: center;
+ }
+
+
+ .faq_page_block_info_botom_left_text_list, .faq_page_block_info_botom_right_text_list{
+  list-style: disc;
+  text-align: justify;
+ }
+
+ /* .faq_page_block_info_botom_left_text_list li::marker{
+  color: red;
+ } */
+
+
+ /* ====================================== */
+
+
+ .faq_page_block_info_botom{
+  display: flex;
+  justify-content: space-between;
+ }
+
+ .faq_page_block_info_botom >div{
+  width: 45%;
+ }
+
+
+ .faq_page_block_info_botom_left{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+ }
+
+ .faq_page_block_info_botom_right{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+ }
+
+
+ .faq_page_block_info_botom_left_title{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+ }
+
+ .faq_page_block_info_botom_right_title{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+ }
+
+ .faq_page_block_info_botom_right_text{
+
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+ }
+
+
+ .faq_page_block_info_botom li{
+  color: #615F5F
+ }
+
+ @media(max-width: 1024px){
+  .faq_page_block_info_top >div{
+    width: 100%;
+  }
+
+  .faq_page_block_info{
+    padding: 30px;
+  }
+
+  .faq_page_block_info_top_item .faq_page_block_info_top_item_txt{
+    height: 80px !important;
+  }
+
+  .faq_page_block_info_botom{
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .faq_page_block_info_botom >div{
+    width: 100%;
+   }
+
+ }
+  
+  
+
+ @media(max-width: 480px){
+  .faq_page_block_info_top_item .faq_page_block_info_top_item_txt{
+    height: 120px !important;
+  }
+ }

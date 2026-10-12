@@ -1,0 +1,162 @@
+
+.souvenirss_section{
+    margin: 100px 0;
+    position: relative;
+    margin-top: -20px;
+}
+
+
+.souvenirss_section .container > button{
+    position: absolute;
+    bottom: -150px;
+    left: 50%;
+    margin-left: -70px;
+}
+
+.lines_div_souviners{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding-bottom: 50px;
+}
+
+.lines_div_souviners h2{
+    color: var(--second_font_color);
+    font-weight: 100;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+
+.souvenirss_section .react-multi-carousel-dot-list{
+    bottom: -70px;
+}
+.souvenir_item{
+    width: 300px;
+    height: 400px;
+    cursor: pointer;
+}
+
+
+.souvenir_item_img_div{
+    width: 100%;
+    height: 300px;
+    position: relative;
+}
+
+.souvenir_item_img_div img{
+    height: 100%;
+    width: 100%;
+}
+
+.souvenir_item_img_div .souvenir_item_add_cart_div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #e7e7e7a4;
+    transform: rotateX(90deg);
+    transform-origin: top center;
+    transition: all .5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.souvenir_item:hover .souvenir_item_img_div .souvenir_item_add_cart_div{
+    transform: rotateX(0);
+}
+
+
+.souvenir_item_info_div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    min-height: 80px;
+    justify-content: flex-end;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.399);
+    padding: 10px;
+    /* gap: 20px; */
+}
+
+
+
+.souvenir_item_info_div_name{
+    color: black;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.souvenir_item_info_div_price{
+    color: var(--second_font_color);
+}
+
+
+.souvenir_item_info_div h3{
+    font-weight: 100;
+    letter-spacing: 1px;
+    color: gray;
+}
+
+
+.souvinirs_title_div{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.souvinirs_title_div h2{
+    color: black;
+    letter-spacing: 2px;
+    font-weight: 100;
+    text-align: center;
+}
+
+.souvinirs_title_div h3{
+    color: var(--second_font_color);
+    letter-spacing: 10px;
+    font-weight: 100;
+    text-align: center;
+}
+
+
+.souvenir_items_seeMore_button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 70px;
+}
+
+
+
+.souviner_item_btn{
+    padding: 10px 50px;
+    background-color: #D5AA72;
+    border: none;
+    outline: none;
+    color: var(--main_font_color);
+}
+
+.souviner_item_btn:hover{
+    background-color: #B28851;
+}
+
+.souvenirss_section  .react-multi-carousel-item  {
+    width: 390px !important;
+}
+
+.souvenirss_section  .react-multiple-carousel__arrow  {
+     display: none !important;
+}
+@media(max-width: 1024px){
+    .lines_div_souviners >img{
+        display: none;
+    }
+}

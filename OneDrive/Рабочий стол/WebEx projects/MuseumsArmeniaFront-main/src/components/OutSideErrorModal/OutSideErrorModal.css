@@ -1,0 +1,13 @@
+.out_side_error_modal{
+    position: fixed;
+    right: 20px;
+    top: 80px;
+    width: 281px !important; 
+    z-index: 99999999;
+    background-color: white;
+    padding: 10px;
+    border-radius: 6px;
+    height: auto !important;
+}
+
+

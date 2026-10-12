@@ -1,0 +1,223 @@
+.singleShop_All {
+  min-height: 100vh;
+  
+}
+.all_singleShopp{
+  position: relative;
+  background-image: url('../../images/shopBackPhoto.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 80px 0;
+
+}
+
+.singleShop_All {
+  background-color: #FFFFFF;
+  padding: 55px 70px;
+  width: 90%;
+  margin: 0 auto;
+  /* width: 90%;
+  margin-left: 60px; */
+  /* margin-top: 100px;
+  margin-bottom: 40px; */
+}
+.singleShop_top {
+  display: flex;
+  gap: 30px;
+}
+.singleShop_top_image {
+  width: 38%;
+  max-width: 500px;
+  height: 440px;
+  object-fit: fill;
+}
+
+/* .singleShop_top_img_div {
+  width: 100%;
+  min-height: 490px;
+  max-width: 600px;
+}
+.singleShop_top_img_div img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+} */
+.number_and_button {
+  display: flex;
+  flex-direction: column ;
+  /* align-items: center; */
+  gap: 30px;
+}
+/* //////////////////selelct number/////////////////////////////////// */
+.number-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90px;
+  padding: 7px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-family: Arial, sans-serif;
+}
+
+.number-box input[type='number'] {
+  width: 50px;
+  text-align: center;
+  border: none;
+}
+
+.number-box input[type='number']::-webkit-inner-spin-button,
+.number-box input[type='number']::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.arrow {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+}
+
+.arrow:hover {
+  color: var(--second_font_color);
+}
+
+/* //////////////////////////////////////// */
+.plus_minus_btns{
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.minusBtnnn{
+  cursor: pointer;
+  border-radius: 50%;
+  box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.15);
+}
+.plusBtnnn{
+  cursor: pointer;
+}
+/* ///////////////////////////////////////////////////// */
+.singleShop_top_right{
+display: flex;
+flex-direction: column;
+justify-content: end;
+}
+
+.singleShop_top_right h2 {
+  margin: 27px 0 7px;
+}
+
+.singleShop_top_right_price {
+  /* margin: 13px 0 50px; */
+  margin-top: -20px;
+
+}
+.price_color{
+  color: #D5AA72;
+  margin-left: 16px;
+}
+
+.singleShop_top_right_kategoria {
+  margin-top: 10px;
+}
+
+/* ///////////////////// */
+.singleShop_bottom_divs {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 45px;
+  /* margin-top: 70px;
+  margin-bottom: 60px; */
+  /* padding: 20px; */
+}
+
+.shop-box-singleShop {
+  box-shadow: 0px 2px 3px 0px #00000014;
+  width: 252px;
+  /* border-radius: 120px; */
+  position: relative;
+  cursor: pointer;
+}
+
+.shop-box_img_singleShop {
+  width: 100%;
+  height: 233px;
+  position: relative;
+}
+.shop-box_img_singleShop img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.singleShop_bottom_title {
+  margin: 180px 0 25px 0;
+  font-weight: normal;
+}
+.shop-box_img_singleShop .souvenir_item_add_cart_div {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background-color: #E7E7E7BD;
+  /* opacity: 1; */
+  transform: rotateX(90deg);
+  transform-origin: top center;
+  transition: all 0.6s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.shop-box-singleShop:hover .shop-box_img_singleShop .souvenir_item_add_cart_div {
+  transform: rotateX(0);
+}
+
+
+.all_singleShopp .container {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+@media screen and (max-width: 1071px) {
+  .singleShop_top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+  }
+  .singleShop_bottom_title {
+    text-align: center;
+  }
+  .singleShop_top_image {
+    width: 65%;
+    max-width: 600px;
+    height: 480px;
+    object-fit: fill;
+  }
+}
+@media screen and (max-width: 800px) {
+  .singleShop_top_image {
+    width: 85%;
+    max-width: 600px;
+    height: 480px;
+    object-fit: fill;
+  }
+  /* .singleShop_All {
+    margin-left: 30px;
+  } */
+}
+
+@media screen and (max-width: 525px) {
+  .singleShop_top_image {
+    width: 88%;
+    height: 350px;
+  }
+  /* .singleShop_All {
+    margin-left: 20px;
+  } */
+}

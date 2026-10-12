@@ -1,0 +1,19 @@
+
+#timer{
+    text-align: center;
+    color: gray;
+}
+.repeat_code{
+    display: flex;
+    gap: 10px;
+}
+
+.repeat_code span{
+ color:gray;
+ text-align: center;
+}
+
+.repeat_code span:nth-of-type(2){
+    text-decoration-line: underline;
+}
+

@@ -1,0 +1,154 @@
+
+.slide-section{
+    height: 500px;
+    padding-top: 80px;
+}
+
+
+
+.slide-section .container {
+    height: 100%;
+}
+
+.carousel-container  {
+    height: 100% !important;
+}
+
+.slide-section h2, .slide-section p{
+    color: var(--second_font_color);
+}
+
+.museum_section_item_info_div >div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.museum_section_item_info_div >div span{
+    color: black;
+}
+.slide-section .react-multiple-carousel__arrow{
+    display: none;
+}
+
+.react-multi-carousel-list{
+    position: static;
+    align-items: center;
+}
+
+
+.slide-section-items{
+    position: relative;
+    /* padding: 100px 0; */
+    /* padding-top: 70px; */
+    height: 100%;
+}
+
+
+.react-multi-carousel-dot-list{
+    bottom: -60px;
+}
+
+
+.react-multi-carousel-item{
+    transform-style: flat !important;
+}
+
+.react-multi-carousel-track{
+    transform-style: flat !important;
+
+}
+
+/*======================= */
+
+
+
+
+.museum_section_item{
+    width: 360px;
+    position: relative;
+    cursor: pointer;
+}
+
+.museum_section_item:hover{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.485);
+}
+
+
+.museum_section_item_img_div{
+    width: 100%;
+    height: 260px;
+}
+
+.museum_section_item_img_div img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.museum_section_item_info_div{
+    background-color: white;
+    padding: 10px;
+    min-height: 100px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.253);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.museum_section_item_info_div span{
+    color: var(--second_font_color);
+}
+
+
+
+.slide_section_title{
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.slide_section_title h2{
+    color: black;
+    letter-spacing: 10px;
+    font-weight: 100;
+    text-align: center;
+}
+
+.slide_section_title p{
+    color: var(--second_font_color);
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+
+.lines_div_section_museum{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding-bottom: 50px;
+}
+
+.lines_div_section_museum h2{
+    color: var(--second_font_color);
+    font-weight: 100;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.slide-section  .react-multi-carousel-item  {
+    width: 430px !important;
+}
+
+.react-multi-carousel-dot-list{
+    flex-wrap: wrap !important;
+}
+
+@media(max-width:1024px){
+    .lines_div_section_museum >img{
+        display: none;
+    }
+}

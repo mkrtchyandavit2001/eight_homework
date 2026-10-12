@@ -1,0 +1,22 @@
+.notification_modal_card{
+    position: fixed;
+    top: 80px;
+    right: 100px;
+    width: 300px;
+    background-color: #ffffff;
+    border-radius: 6px;
+    z-index: 99999999999;
+    padding: 20px;
+    animation: anim 0.5s;
+    border: 3px solid red;
+}
+
+
+@keyframes anim {
+  from {
+    transform: translate(100%);
+  }
+  to {
+    transform: translate(0);
+  }
+}

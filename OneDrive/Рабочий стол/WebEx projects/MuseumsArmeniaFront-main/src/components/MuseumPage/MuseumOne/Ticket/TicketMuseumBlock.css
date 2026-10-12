@@ -1,0 +1,455 @@
+.ReactModal__Overlay {
+  z-index: 999999;
+}
+.TicketMuseumCatalog-parent {
+  padding: 0 40px 25px;
+  max-width: 430px;
+}
+
+.BuyTicketBlock-listPar {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin: 13px 0 23px;
+}
+
+.BuyTicketBlock-list-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+}
+/* .BuyTicketBlock-list-menu span {
+   color: #a6a6a6;
+} */
+
+.TicketMuseumCatalog-buttonBlock {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.TicketMuseumCatalog-buttonBlock button:disabled {
+  background-color: #a6a6a6 !important;
+  cursor: not-allowed;
+}
+
+.BuyTicketBlock-list-menu p {
+  font-family: globalFont;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.ticketModal-close {
+  width: 30px;
+  height: 40px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  cursor: pointer;
+  color: #b26705;
+  width: 100%;
+  padding: 10px 11px;
+}
+
+.museumTicket-formChild {
+  max-width: 400px;
+}
+
+.museumTicket-formChild-header > p {
+  font-family: globalFont;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+  text-align: center;
+}
+
+.attention {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.attention span {
+  font-family: globalFont;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 24px;
+  color: #a6a6a6;
+}
+
+.BuyTicketBlock-list-Button {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.BuyTicketBlock-list-Button span {
+  cursor: pointer;
+  display: flex;
+  color: #a6a6a6;
+}
+
+.BuyTicketBlock-list-priceOne p {
+  font-family: globalFont;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+  display: flex;
+  gap: 5px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.BuyTicketBlock-list-price {
+  box-shadow: 0 4px 15px -14px;
+  padding: 20px 10px;
+  margin: 24px 0;
+}
+.BuyTicketBlock-list-price > div {
+  max-width: 300px;
+}
+.BuyTicketBlock-list-price p {
+  font-family: globalFont;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #a6a6a6;
+  margin: 5px 0;
+  display: flex;
+  gap: 5px;
+  justify-content: space-between;
+  align-items: center;
+}
+.BuyTicketBlock-list-price span {
+  min-width: 70px;
+}
+
+.BuyTicketBlock-list-totalPrice > p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: globalFont;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #3f3d56;
+  margin: 10px 0 14px;
+}
+.BuyTicketBlock-list-totalPrice > p span {
+  font-family: globalFont;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+  margin-left: 10px;
+}
+.newStyleBtn::before {
+  border: none;
+}
+.newStyleBtn::after {
+  border: none;
+}
+
+.AbonementTicket_totalPrice {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  box-shadow: 0 4px 15px -14px;
+  margin: 30px 0;
+  padding: 20px 10px;
+}
+.AbonementTicket_totalPrice > p {
+  font-family: globalFont;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+}
+.AbonementTicket_totalPrice > span {
+  font-family: globalFont;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 25px;
+  color: #a3a3a3;
+}
+
+.BuyTicketBlock-list-warning p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: red;
+  font-size: 13px;
+  font-family: globalFont;
+  margin: 10px 0 14px;
+}
+
+/* icket form start ................................. */
+
+.museumTicket-formChild-inbut > input {
+  border: 1px solid #aaaaaa;
+  padding: 14px 16px;
+  min-width: 300px;
+}
+
+.formChild-inbut {
+  border: 1px solid #aaaaaa;
+  padding: 14px 16px;
+  min-width: 300px;
+}
+
+.museumTicket-selectIcon {
+  position: absolute;
+  right: 10px;
+  top: 14px;
+}
+
+.ticketForm-blockradio {
+  display: flex;
+  justify-content: space-between;
+  min-width: 300px;
+}
+.ticketForm-blockradio > label {
+  color: #aaaaaa;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-family: globalFont;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+}
+
+.BuyTicketBlock-parent {
+  width: 384px;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  font-family: "Segoe UI", sans-serif;
+  color: #000000;
+}
+
+.BuyTicketBlock-title {
+  width: 100%;
+  font-size: 20px;
+  line-height: 27px;
+  text-align: center;
+}
+
+.ticketRow {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 14px;
+  padding: 10px 10px;
+  margin-top: 10px;
+  border: 1px solid #ededed;
+  box-sizing: border-box;
+}
+
+.ticketRow-special {
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  padding: 16px 10px;
+  border: 1px solid #ededed;
+}
+
+.ticketRow-top {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+/* Info-ին թույլ տալ ծալվել իր տիրույթում, counter-ին՝ պահպանել չափը */
+.ticketRow-top .ticketRow-info {
+  min-width: 0;
+  flex: 1 1 auto;
+}
+
+.ticketRow-top .ticketRow-counter {
+  flex: 0 0 auto;
+}
+
+.ticketRow-special .ticketRow-schedule {
+  width: 100%;
+}
+
+/* Հատուկ տոմսի անուն/գին ու badge՝ ավելի կոմպակտ տառաչափ */
+.ticketRow-special .ticketRow-name {
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.ticketRow-special .ticketRow-discountBadge {
+  font-size: 13px;
+}
+
+.ticketRow-special .ticketRow-oldPrice {
+  font-size: 13px;
+}
+
+.BuyTicketBlock-list {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.ticketRow-info-only {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+}
+
+.ticketRow-info {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.ticketRow-name {
+  margin: 0;
+  font-size: 14px;
+  line-height: 19px;
+}
+
+.ticketRow-name.is-muted {
+  color: #999999;
+  font-size: 16px;
+}
+
+.ticketRow-discountBadge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: max-content;
+  padding: 6px;
+  background: rgba(218, 168, 106, 0.7);
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 150%;
+}
+
+.ticketRow-oldPrice {
+  font-size: 16px;
+  color: #ffffff;
+  text-decoration: line-through;
+  margin-right: 7px;
+}
+
+.ticketRow-counter {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 14px;
+}
+
+.ticketRow-counter-btn {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50px;
+  cursor: pointer;
+  box-shadow: none;
+}
+
+.ticketRow-counter-btn.is-disabled {
+  opacity: 0.4;
+  pointer-events: none;
+}
+
+.ticketRow-counter p {
+  margin: 0;
+  min-width: 12px;
+  text-align: center;
+  color: #a6a6a6;
+}
+.ticketRow-counter p.is-active {
+  color: #000000;
+}
+
+.ticketRow-schedule {
+  width: 100%;
+}
+
+.ticketRow-schedule-title {
+  width: max-content;
+  padding: 0 10px 4px;
+  margin: 0 auto 8px;
+  border-bottom: 1px solid #ededed;
+  font-size: 14px;
+  color: #2d2d2d;
+  text-align: center;
+}
+
+.ticketRow-schedule-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.ticketRow-schedule-row {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 6px;
+  border-bottom: 0.5px solid #ededed;
+  font-size: 14px;
+  color: #2d2d2d;
+}
+
+.ticketRow-schedule-row:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.attention {
+  display: flex;
+  align-items: flex-start;
+  gap: 4px;
+  margin: 0;
+  font-size: 9px;
+  color: #999999;
+  text-decoration: underline;
+}
+
+.BuyTicketBlock-list-price,
+.BuyTicketBlock-list-totalPrice {
+  width: 100%;
+  /* text-align: center; */
+}
+
+.BuyTicketBlock-list-totalPrice p {
+  font-size: 14px;
+  line-height: 19px;
+}
+
+.BuyTicketBlock-list-warning {
+  color: #d33;
+  font-size: 12px;
+  text-align: center;
+}
+
+/* icket form end ................................. */
+
+@media (max-width: 500px) {
+  .TicketMuseumCatalog-parent {
+    padding: 0 20px 25px;
+  }
+}

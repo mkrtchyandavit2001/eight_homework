@@ -1,0 +1,82 @@
+.reset_password_send_email_page{
+    min-height: 100vh;
+}
+
+.reset_password_send_email_page .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding-bottom: 700px;
+
+    padding-top: 300px;
+}
+
+
+.reset_password_send_email_title_div{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.reset_password_send_email_title_div p{
+    font-weight: bold;
+    text-align: center;
+}
+
+
+
+.reset_password_send_email_block{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    width: 318px;
+}
+
+.reset_password_send_email{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+}
+
+.reset_password_send_email >div{
+    width: 100%;
+}
+
+.reset_password_send_email input {
+    width: 100%;
+    height: 44px;
+    border: 1px solid gray;
+    padding: 0 5px;
+    outline: none;
+}
+
+
+.reset_password_send_email_btn{
+    width: 100%;
+    height: 44px;
+    background-color: #D5AA72;
+    border: none;
+    outline: none;
+    color: var(--main_font_color);
+}
+
+
+.reset_password_send_email_btn:hover{
+    background-color: #B28851;
+}
+
+.redirect_login{
+    text-align: center;
+    color: black;
+    text-decoration: underline;
+}
+
+.redirect_login:hover{
+    color: var(--second_font_color);
+}
+
+.email-inp >p{
+    color: red;
+}

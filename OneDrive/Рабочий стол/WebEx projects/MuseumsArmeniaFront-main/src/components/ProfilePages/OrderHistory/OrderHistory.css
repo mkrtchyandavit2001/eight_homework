@@ -1,0 +1,72 @@
+.OrderHistory_all{
+  padding: 30px 0 30px 30px ;
+  overflow-x: auto;
+  max-width: 80%;
+}
+
+
+.OrderHistory_all .container {
+  width: 100%;
+}
+
+.OrderHistory_table{
+  margin-top: 22px;
+  width: 100%;
+}
+
+.OrderHistory_table table {
+  box-shadow: 0px 2px 3px 0px #00000026;
+  border-radius: 2px;
+  border-collapse: collapse;
+  overflow-x: auto;
+  width: 100%;
+}
+
+
+.OrderHistory_table thead, .OrderHistory_table tbody{
+  width: 100%;
+}
+
+
+.OrderHistory_table th {
+  /* background-color: #F0F0F080; */
+  color: #00000066;
+  border: 1px solid #C6C4C4;
+  padding: 8px;
+  text-align: left;
+}
+
+.OrderHistory_table td {
+  border: 1px solid #C6C4C4;
+  padding: 8px;
+}
+
+
+.OrderHistory_table .pagination_ul{
+  padding-top: 30px;
+}
+
+
+
+ @media(max-width: 1024px){
+  .OrderHistory_all{
+    padding: 10px;
+    /* max-width: 70%; */
+
+  }
+} 
+
+
+
+/* @media(max-width: 780px){
+  .OrderHistory_all{
+    max-width: 410px;
+  }
+} */
+
+
+/* @media(max-width: 480px){
+  .OrderHistory_all{
+    max-width: 120px;
+  }
+}  */

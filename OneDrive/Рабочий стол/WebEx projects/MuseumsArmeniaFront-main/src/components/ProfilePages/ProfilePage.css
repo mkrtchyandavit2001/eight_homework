@@ -1,0 +1,22 @@
+/* .ProfilePage_all {
+  min-height: 100vh;
+} */
+.ProfilePage_bigDiv {
+  display: flex;
+  /* height: 700px; */
+}
+
+
+
+.ProfilePage_bigDiv_right{
+  width: 80%;
+
+}
+
+
+/* @media(max-width: 480px){
+  .ProfilePage_bigDiv_right{
+    width:  300px;
+    
+  }
+} */

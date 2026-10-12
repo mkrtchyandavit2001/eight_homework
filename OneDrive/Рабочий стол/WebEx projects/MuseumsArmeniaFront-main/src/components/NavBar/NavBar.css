@@ -1,0 +1,92 @@
+.nav_bar {
+  background-color: black;
+  position: sticky;
+  left: 0;
+  top: 0;
+  z-index: 99999999;
+  opacity: 0.8;
+}
+
+.nav_bar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+  height: 70px;
+}
+
+.nav_bar_left_div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.nav_bar_right_div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.nav_bar_logo_ {
+  width: 150px;
+}
+
+.nav_bar_right_div a {
+  color: var(--main_font_color);
+}
+
+/* ///H//// */
+.shopIconDiv {
+  position: relative;
+}
+.shopIconLength {
+  position: absolute;
+  top: 0;
+  right: -2px;
+  color: white;
+  background-color: #cea670;
+  border-radius: 50%;
+  width: 17px;
+  height: 17px;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.shop-card {
+  min-width: 26px !important;
+  min-height: 26px !important;
+  cursor: pointer;
+}
+
+/* //////////////// */
+
+
+@media (max-width: 1440px) {
+  .nav_bar_left_div{
+    gap: 10px;
+  }
+
+  .nav_bar .container{
+    gap: 10px;
+  }
+
+}
+
+@media (max-width: 1140px) {
+  
+  .nav_bar_logo_{
+    width: 70px;
+  }
+}
+
+
+
+@media (max-width: 1024px) {
+  .nav_bar {
+    display: none;
+  }
+}
