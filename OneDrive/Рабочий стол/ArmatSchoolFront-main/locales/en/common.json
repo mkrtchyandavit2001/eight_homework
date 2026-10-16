@@ -1,0 +1,2170 @@
+{
+    "nav": {
+        "home": "Home",
+        "courses": "Courses",
+        "blog": "Blog",
+        "events": "Events",
+        "about": "About Us",
+        "contact": "Contact",
+        "login": "Log in",
+        "freeTrial": "Book a free trial lesson"
+    },
+    "signup": {
+        "metaTitle": "Sign Up | Armat School",
+        "metaDescription": "Create your Armat School account to start learning Armenian online with interactive lessons and native tutors.",
+        "ogTitle": "Sign Up | Armat School",
+        "ogDescription": "Join Armat School today and connect back to your roots with online Armenian language courses.",
+        "title": "Create your account",
+        "subtitle": "Join Armat and start your family's Armenian journey.",
+        "firstName": "First Name",
+        "firstNamePlaceholder": "e.g. Ani",
+        "lastName": "Last Name",
+        "lastNamePlaceholder": "e.g. Petrosyan",
+        "email": "Email Address",
+        "emailPlaceholder": "example@mail.com",
+        "birthDate": "Birth Date",
+        "phone": "Phone Number",
+        "selectCountryCode": "Select Country Code",
+        "password": "Create Password",
+        "passwordPlaceholder": "Min. 8 characters",
+        "confirmPassword": "Confirm Password",
+        "confirmPasswordPlaceholder": "Re-enter your password",
+        "showPassword": "Show password",
+        "hidePassword": "Hide password",
+        "showConfirmPassword": "Show confirm password",
+        "hideConfirmPassword": "Hide confirm password",
+        "strength": {
+            "weak": "Weak",
+            "medium": "Medium",
+            "strong": "Strong"
+        },
+        "criteria": {
+            "minLength": "Minimum 8 characters",
+            "upper": "One uppercase letter",
+            "lower": "One lowercase letter",
+            "number": "One number",
+            "special": "One special character",
+            "noSpaces": "No spaces"
+        },
+        "countries": {
+            "US": "USA / Canada",
+            "AM": "Armenia",
+            "RU": "Russia",
+            "FR": "France",
+            "DE": "Germany"
+        },
+        "errors": {
+            "firstName": "First name is required.",
+            "lastName": "Last name is required.",
+            "emailRequired": "Email is required.",
+            "emailInvalid": "Enter a valid email address.",
+            "birthDate": "Birth date is required.",
+            "phoneRequired": "Phone number is required.",
+            "phoneLength": "Phone must be {digits} digits for {country}.",
+            "passwordRequired": "Password is required.",
+            "passwordWeak": "Password does not meet all requirements below.",
+            "confirmRequired": "Please confirm your password.",
+            "confirmMismatch": "Passwords do not match.",
+            "terms": "You must agree to the terms.",
+            "server500": "An internal server error occurred (500). Please try again later.",
+            "generic": "Something went wrong during registration. Check your details or try again."
+        },
+        "termsPrefix": "By signing up you agree to our",
+        "terms": "Terms",
+        "and": "and",
+        "privacy": "Privacy Policy",
+        "submit": "Create Account →",
+        "submitting": "Creating Account...",
+        "haveAccount": "Already have an account?",
+        "signIn": "Sign In",
+        "banner": {
+            "aria": "Armat School Overview",
+            "logoAlt": "Armat School - Learn Armenian Online",
+            "heading": "Welcome to Armat School",
+            "subheading": "and welcome back to your roots",
+            "hashtags": "#LearnArmenian #LoveArmenian #LiveArmenian"
+        }
+    },
+    "login": {
+  "metaTitle": "Sign In | Armat School",
+  "metaDescription": "Sign in to your Armat School account to access Armenian language courses, interactive lessons, and personalized learning materials.",
+  "ogTitle": "Sign In | Armat School",
+  "ogDescription": "Log in to your account and continue learning Armenian online with Armat School.",
+  "sectionAria": "User Sign In Section",
+  "formAria": "Sign in form",
+  "title": "Sign in to Armat",
+  "subtitle": "Welcome back! Please enter your details.",
+  "email": "Email Address",
+  "emailPlaceholder": "emma@example.com",
+  "password": "Password",
+  "showPassword": "Show password",
+  "hidePassword": "Hide password",
+  "forgotPassword": "Forgot password?",
+  "submit": "Sign In",
+  "submitting": "Signing In...",
+  "or": "or",
+  "google": "Continue with Google",
+  "noAccount": "Don’t have an account?",
+  "signUp": "Sign up",
+  "errors": {
+    "emailRequired": "Email is required.",
+    "emailInvalid": "Enter a valid email address.",
+    "passwordRequired": "Password is required."
+  }
+},
+"forgotPassword": {
+  "metaTitle": "Forgot Password | Armat School",
+  "metaDescription": "Reset your Armat School account password. Enter your registered email address to receive password reset instructions.",
+  "ogTitle": "Forgot Password | Armat School",
+  "ogDescription": "Reset your Armat School account password and regain access to learning Armenian online.",
+  "sectionAria": "Password Reset Section",
+  "formAria": "Reset password form",
+  "title": "Reset your password",
+  "subtitle": "Enter your email and we'll send a reset link",
+  "email": "Email address",
+  "emailPlaceholder": "enter your email address",
+  "submit": "Send Reset Link",
+  "submitting": "Sending...",
+  "successTitle": "Email sent!",
+  "successText": "Check your inbox for a password reset link.",
+  "backToLogin": "Back to login",
+  "errors": {
+    "emailRequired": "Email is required.",
+    "emailInvalid": "Enter a valid email address."
+  }
+},
+"verifyEmail": {
+  "metaTitle": "Verify Your Email | Armat School",
+  "metaDescription": "Verify your email address to complete your registration and get started with Armat School.",
+  "sectionAria": "Email Verification Section",
+  "loading": "Loading...",
+  "verifying": "Verifying your email...",
+  "successTitle": "Email Successfully Verified!",
+  "successLine": "Your email has been successfully verified.",
+  "accountBefore": "Your account is now",
+  "accountActive": "active",
+  "accountAfter": ".",
+  "activatedTitle": "Account activated",
+  "activatedText": "You can now sign in and access all Armat features.",
+  "continueToLogin": "Continue to Login",
+  "title": "Verify Your Email",
+  "thanks": "Thank you for creating your account.",
+  "thanksWithName": "Thank you for creating your account, {name}.",
+  "sentTo": "We've sent a verification email to:",
+  "emailFallback": "your-email@example.com",
+  "checkInbox": "Please check your inbox and click the verification link to activate your account.",
+  "spamBefore": "If you don't see the email, please check your",
+  "spamStrong": "Spam or Junk",
+  "spamAfter": "folder.",
+  "resend": "Resend Verification Email",
+  "resending": "Sending...",
+  "secondsShort": "s",
+  "goBack": "Go Back",
+  "errors": {
+    "verifyFailed": "Failed to verify email. The link is invalid or expired.",
+    "resendFailed": "Failed to resend email. Please try again later."
+  }
+},
+    "home": {
+        "banner": {
+            "enrollingBadge": "Enrolling for the Fall 2027 semester",
+            "titleLine1": "Learn Armenian",
+            "titleLine2": "Anywhere.",
+            "subtitle": "Premium live Armenian lessons with native Armenian-speaking teachers, designed for diaspora children and families.",
+            "bookTrial": "Book a free lesson",
+            "browsePackages": "View packages",
+            "nextLesson": "Next lesson",
+            "nextLessonTime": "Today, 16:00",
+            "weeklyProgress": "Weekly progress",
+            "weeklyProgressChange": "+24% this week",
+            "city": "Los Angeles",
+            "cityTime": "10:00",
+            "utc": "UTC−10"
+        },
+        "eventsBanner": {
+            "handDrawnLabel": "More than lessons: a community",
+            "badge": "Armat School events",
+            "title": "Learn. Play. Connect.",
+            "description": "Discover interactive experiences that bring the Armenian language, culture and community together beyond lessons.",
+            "event": {
+                "title": "Armenian Game Hour",
+                "description": "Join a fun, interactive game session where students can practice Armenian, play together and learn through engaging activities.",
+                "date": "October 5, 2026",
+                "time": "11:00",
+                "location": "Online event",
+                "spots": "30 spots available",
+                "duration": "75 minutes"
+            },
+            "studentBadge": {
+                "title": "For Armat School students",
+                "description": "Many events are FREE for students enrolled in the relevant active courses."
+            },
+            "otherParticipants": {
+                "title": "For other participants",
+                "subtitle": "One-time registration fee:",
+                "price": "$20"
+            },
+            "actions": {
+                "viewEvent": "View event",
+                "registerNow": "Register now"
+            }
+        },
+        "whyArmat": {
+            "sectionLabel": "Why Armat?",
+            "heading": "Everyone your family needs to learn Armenian",
+            "subtitle": "Every detail is designed to make learning Armenian enjoyable, consistent and meaningful for your family.",
+            "features": {
+                "nativeTeachers": {
+                    "title": "Native Armenian-speaking teachers",
+                    "body": "All instructors are native Armenian speakers with pedagogical qualifications."
+                },
+                "liveLessons": {
+                    "title": "Live one-on-one lessons",
+                    "body": "Real-time lessons via Google Meet. No recordings, no bots, just your child and their teacher."
+                },
+                "flexibleSchedule": {
+                    "title": "Flexible schedule",
+                    "body": "Book lessons in any time zone. Mornings, evenings, weekends: choose what suits your family."
+                },
+                "progressTracking": {
+                    "title": "Progress tracking",
+                    "body": "Visual reports after every lesson. Parents see vocabulary growth and achievements."
+                },
+                "culturalImmersion": {
+                    "title": "Cultural immersion",
+                    "body": "Songs, fairy tales, history and traditions are included in every lesson so that the language connects with identity."
+                },
+                "globalCommunity": {
+                    "title": "Global community",
+                    "body": "Join families from 35+ countries who share the same goal: raising bilingual Armenian children."
+                }
+            }
+        },
+        "stats": {
+            "sectionLabel": "By the numbers",
+            "heading": "Trusted by families worldwide.",
+            "items": {
+                "lessonsDone": {
+                    "value": "100+",
+                    "label": "Lessons Done!"
+                },
+                "countries": {
+                    "value": "5+",
+                    "label": "Countries"
+                },
+                "satisfaction": {
+                    "value": "98%",
+                    "label": "Satisfaction"
+                }
+            }
+        },
+        "howItWorks": {
+            "sectionLabel": "Process",
+            "heading": "How it works",
+            "subtitle": "From the first click to fluent conversation: seven simple steps that transform your child's connection to Armenian.",
+            "cta": "Book a free lesson",
+            "steps": {
+                "bookTrial": {
+                    "title": "Book a free lesson",
+                    "body": "Book your no-obligation trial lesson in under 2 minutes."
+                },
+                "choosePackage": {
+                    "title": "Choose your package",
+                    "body": "Pick the plan that fits your family's schedule and goals."
+                },
+                "meetTeacher": {
+                    "title": "Meet your teacher",
+                    "body": "We will select a certified, native Armenian-speaking teacher for you."
+                },
+                "attendLessons": {
+                    "title": "Attend live lessons",
+                    "body": "Join interactive lessons via Google Meet at your local time."
+                },
+                "completeHomework": {
+                    "title": "Complete homework",
+                    "body": "Practice with tailored exercises between lessons."
+                },
+                "trackProgress": {
+                    "title": "Track progress",
+                    "body": "Parents and students see detailed progress after every lesson."
+                },
+                "receiveCertificate": {
+                    "title": "Receive a certificate",
+                    "body": "Celebrate achievements with official Armat Academy certificates."
+                }
+            }
+        },
+        "courses": {
+            "sectionLabel": "Our courses",
+            "heading": "Start learning",
+            "items": {
+                "beginner": {
+                    "title": "Armenian for Beginners",
+                    "description": "Designed for beginners and diaspora Armenians rediscovering their roots.",
+                    "lessons": "12 lessons",
+                    "level": "Beginner",
+                    "mode": "Online",
+                    "price": "$128",
+                    "oldPrice": "$180"
+                },
+                "intermediate": {
+                    "title": "Armenian for Intermediate Learners",
+                    "description": "For those who know the basics and want to develop fluent speech. Deepen your grammar,...",
+                    "lessons": "12 lessons",
+                    "level": "Standard",
+                    "mode": "Online",
+                    "price": "$200",
+                    "oldPrice": "$250"
+                },
+                "advanced": {
+                    "title": "Armenian for Advanced Learners",
+                    "description": "For confident speakers aiming for near-native fluency. Master complex grammar...",
+                    "lessons": "12 lessons",
+                    "level": "Advanced",
+                    "mode": "Online",
+                    "price": "$280",
+                    "oldPrice": "$360"
+                }
+            },
+            "cta": "View course"
+        }
+    },
+    "blog": {
+        "pageTitle": "Stories and useful insights",
+        "searchPlaceholder": "Search articles…",
+        "categories": {
+            "all": "All",
+            "parentingTips": "Parenting tips",
+            "languageGuide": "Language guide",
+            "research": "Research",
+            "culture": "Culture",
+            "curriculum": "Curriculum"
+        },
+        "viewAll": "View all",
+        "readArticle": "Read article",
+        "readMore": "Read more",
+        "likeAria": "Like this article",
+        "shareAria": "Share this article",
+        "pagination": {
+            "previousAria": "Previous page",
+            "nextAria": "Next page"
+        },
+        "resources": {
+            "heading": "Learning resources",
+            "subtitle": "Useful materials created to support you on your Armenian learning journey.",
+            "viewAll": "View all resources",
+            "filters": {
+                "all": "All",
+                "free": "Free resources",
+                "paid": "Paid resources",
+                "worksheets": "Worksheets",
+                "vocabulary": "Vocabulary",
+                "grammar": "Grammar",
+                "literature": "Literature",
+                "alphabet": "Alphabet",
+                "audio": "Audio",
+                "video": "Video",
+                "forChildren": "For Children",
+                "forParents": "For parents"
+            },
+            "download": "Download",
+            "popular": "Popular",
+            "saveAria": "Save this resource",
+            "shareAria": "Share this resource"
+        },
+        "moreToExplore": {
+            "heading": "More to explore",
+            "subtitle": "Useful materials created to support you on your Armenian learning journey.",
+            "explore": "Explore",
+            "items": {
+                "learningResources": {
+                    "title": "Learning resources",
+                    "description": "Worksheets, flashcards and exercises you can use alongside your lessons."
+                },
+                "courseGuides": {
+                    "title": "Course guides",
+                    "description": "A detailed description of each Armat level: what is covered and how it works."
+                },
+                "forParents": {
+                    "title": "For parents",
+                    "description": "Answers to frequently asked questions, tips for building a bilingual home and more."
+                }
+            }
+        },
+        "sampleArticles": {
+            "featured": {
+                "slug": "why-teaching-children-armenian-strengthens-identity",
+                "category": "culture",
+                "date": "August 5, 2026",
+                "title": "Why teaching children Armenian strengthens their cultural identity",
+                "excerpt": "Language is more than words: it carries history, tradition and a sense of belonging. Here is how learning Armenian early shapes a child's connection to their roots."
+            },
+            "items": [
+                {
+                    "slug": "how-to-maintain-armenian-at-home",
+                    "category": "languageGuide",
+                    "date": "July 18, 2026",
+                    "title": "How to maintain Armenian at home between lessons",
+                    "excerpt": "Simple daily habits that reinforce vocabulary and confidence outside the classroom."
+                },
+                {
+                    "slug": "eastern-vs-western-armenian",
+                    "category": "curriculum",
+                    "date": "July 10, 2026",
+                    "title": "Eastern or Western Armenian: what should my child learn?",
+                    "excerpt": "Understanding the difference between the two branches and choosing the right path."
+                },
+                {
+                    "slug": "science-behind-bilingual-education",
+                    "category": "research",
+                    "date": "June 28, 2026",
+                    "title": "The science behind bilingual education for young children",
+                    "excerpt": "Research consistently shows that early language exposure benefits cognitive development."
+                }
+            ]
+        },
+        "sampleResources": [
+            {
+                "category": "alphabet",
+                "level": "Beginner",
+                "age": "Ages 5–8",
+                "title": "Armenian alphabet: practice sheet for beginners",
+                "description": "Tracing and writing exercises for all 38 letters of the Armenian alphabet."
+            },
+            {
+                "category": "vocabulary",
+                "level": "Beginner",
+                "age": "Ages 4–10",
+                "title": "Everyday vocabulary flashcards: 60 cards",
+                "description": "Colorful flashcards covering food, family, colors and everyday objects."
+            },
+            {
+                "category": "alphabet",
+                "level": "All levels",
+                "age": "All ages",
+                "title": "Armenian alphabet chart and poster for the classroom",
+                "description": "A printable A3 alphabet chart showing each letter, its sound and an example word."
+            }
+        ],
+        "backToBlog": "Back to blog",
+        "contents": "Contents",
+        "tags": "Tags",
+        "share": "Share",
+        "previousArticle": "Previous article",
+        "nextArticle": "Next article",
+        "relatedArticles": "Related articles"
+    },
+    "events": {
+        "hero": {
+            "title": "Learn. Play. Connect.",
+            "description": "Discover interactive experiences that bring the Armenian language and culture to life."
+        },
+        "featured": {
+            "category": "Game Hour",
+            "format": "Online",
+            "title": "Armenian Game Hour",
+            "description": "Join a fun, interactive game session where students practice Armenian through games and challenges.",
+            "dateLabel": "Date",
+            "date": "October 18, 2026",
+            "timeLabel": "Time",
+            "time": "17:00",
+            "durationLabel": "Duration",
+            "duration": "60 minutes",
+            "spotsLabel": "Available spots",
+            "spots": "12 spots",
+            "perkTitle": "Free for Armat School students",
+            "perkText": "Included when enrolled in the relevant active course",
+            "guestInfo": "Guest entry: $8 · Time zone: your local time",
+            "buyLabel": "Buy ticket",
+            "buyHref": "#"
+        },
+        "categories": {
+            "title": "Explore event experiences",
+            "description": "There is more than one way to experience Armenian.",
+            "items": [
+                {
+                    "label": "Game Hours",
+                    "text": "Learn Armenian through interactive games, challenges and friendly competition."
+                },
+                {
+                    "label": "Cultural Experiences",
+                    "text": "Discover Armenian traditions, history, music, cuisine and more."
+                },
+                {
+                    "label": "Speaking Clubs",
+                    "text": "Chat in Armenian in real conversations in a relaxed, supportive environment."
+                },
+                {
+                    "label": "Masterclasses",
+                    "text": "Take part in focused sessions built around practical, real-life topics."
+                },
+                {
+                    "label": "Family & Kids",
+                    "text": "Fun Armenian experiences designed for children and families."
+                },
+                {
+                    "label": "Community Events",
+                    "text": "Meet other learners and become part of Armat's global community."
+                }
+            ]
+        },
+        "whyJoin": {
+            "eyebrow": "Why join",
+            "title": "More than a lesson",
+            "description": "Practice Armenian in real situations, meet other learners and enjoy the culture.",
+            "items": [
+                {
+                    "title": "Practice naturally",
+                    "text": "Use Armenian outside of lessons through games, conversations and activities."
+                },
+                {
+                    "title": "Meet the community",
+                    "text": "Connect with Armenian learners from different countries."
+                },
+                {
+                    "title": "Discover Armenian culture",
+                    "text": "Explore traditions, stories, history, music and everyday life."
+                },
+                {
+                    "title": "Learn while having fun",
+                    "text": "Build confidence through interactive and enjoyable experiences."
+                }
+            ]
+        },
+        "access": {
+            "title": "Access to events",
+            "items": [
+                {
+                    "badge": "For students",
+                    "title": "For Armat School students",
+                    "text": "Many events are FREE for students enrolled in the relevant active courses."
+                },
+                {
+                    "badge": "For guests",
+                    "title": "For other participants",
+                    "text": "Selected events are also available to guests and other participants for a small fee."
+                }
+            ]
+        },
+        "past": {
+            "title": "Past events and highlights",
+            "description": "A look at memorable moments from the Armat School community.",
+            "items": [
+                {
+                    "id": "game-hour",
+                    "category": "Game Hour",
+                    "title": "Armenian Game Hour"
+                },
+                {
+                    "id": "culture-day",
+                    "category": "Cultural Experience",
+                    "title": "Armenian Culture Day"
+                },
+                {
+                    "id": "speaking-club",
+                    "category": "Speaking Club",
+                    "title": "Speaking Club"
+                },
+                {
+                    "id": "kids-workshop",
+                    "category": "Family & Kids",
+                    "title": "Armenian Workshop for Kids"
+                },
+                {
+                    "id": "community-meetup",
+                    "category": "Community Event",
+                    "title": "Community Meetup"
+                }
+            ]
+        }
+    },
+    "featured": {
+        "image": "/images/game-hour.jpg",
+        "category": "Game Hour",
+        "format": "Online",
+        "title": "Armenian Game Hour",
+        "description": "Join a fun, interactive game session where students practice Armenian through games and challenges.",
+        "dateLabel": "Date",
+        "date": "October 18, 2026",
+        "timeLabel": "Time",
+        "time": "17:00",
+        "durationLabel": "Duration",
+        "duration": "60 minutes",
+        "spotsLabel": "Available spots",
+        "spots": "12 spots",
+        "perkTitle": "Free for Armat School students",
+        "perkText": "Included when enrolled in the relevant active course",
+        "guestInfo": "Guest entry: $8 · Time zone: your local time",
+        "buyLabel": "Buy ticket",
+        "buyHref": "#"
+    },
+    "categories": {
+        "title": "Explore event experiences",
+        "description": "There is more than one way to experience Armenian.",
+        "items": [
+            {
+                "label": "Game Hours",
+                "text": "Learn Armenian through interactive games, challenges and friendly competition."
+            },
+            {
+                "label": "Cultural Experiences",
+                "text": "Discover Armenian traditions, history, music, cuisine and more."
+            },
+            {
+                "label": "Speaking Clubs",
+                "text": "Chat in Armenian in real conversations in a relaxed, supportive environment."
+            },
+            {
+                "label": "Masterclasses",
+                "text": "Take part in focused sessions built around practical, real-life topics."
+            },
+            {
+                "label": "Family & Kids",
+                "text": "Fun Armenian experiences designed for children and families."
+            },
+            {
+                "label": "Community Events",
+                "text": "Meet other learners and become part of Armat's global community."
+            }
+        ]
+    },
+    "whyJoin": {
+        "eyebrow": "Why join",
+        "title": "More than a lesson",
+        "description": "Practice Armenian in real situations, meet other learners and enjoy the culture.",
+        "items": [
+            {
+                "title": "Practice naturally",
+                "text": "Use Armenian outside of lessons through games, conversations and activities."
+            },
+            {
+                "title": "Meet the community",
+                "text": "Connect with Armenian learners from different countries."
+            },
+            {
+                "title": "Discover Armenian culture",
+                "text": "Explore traditions, stories, history, music and everyday life."
+            },
+            {
+                "title": "Learn while having fun",
+                "text": "Build confidence through interactive and enjoyable experiences."
+            }
+        ]
+    },
+    "access": {
+        "title": "Access to events",
+        "items": [
+            {
+                "badge": "For students",
+                "title": "For Armat School students",
+                "text": "Many events are FREE for students enrolled in the relevant active courses."
+            },
+            {
+                "badge": "For guests",
+                "title": "For other participants",
+                "text": "Selected events are also available to guests and other participants for a small fee."
+            }
+        ]
+    },
+    "past": {
+        "title": "Past events and highlights",
+        "description": "A look at memorable moments from the Armat School community.",
+        "items": [
+            {
+                "image": "/images/game-hour.jpg",
+                "category": "Game Hour",
+                "title": "Armenian Game Hour"
+            },
+            {
+                "image": "/images/past-culture.jpg",
+                "category": "Cultural Experience",
+                "title": "Armenian Culture Day"
+            },
+            {
+                "image": "/images/past-speaking.jpg",
+                "category": "Speaking Club",
+                "title": "Speaking Club"
+            },
+            {
+                "image": "/images/past-kids.jpg",
+                "category": "Family & Kids",
+                "title": "Armenian Workshop for Kids"
+            },
+            {
+                "image": "/images/past-community.jpg",
+                "category": "Community Event",
+                "title": "Community Meetup"
+            }
+        ]
+    },
+    "forParentsPage": {
+        "breadcrumb": "For parents",
+        "title": "For parents",
+        "description": "Practical tips, answers and resources to help parents support their child's Armenian learning.",
+        "searchPlaceholder": "Search articles…",
+        "allCategories": "All categories",
+        "articlesFound": "articles found",
+        "articleFound": "article found",
+        "noResults": "No articles match your search.",
+        "readMore": "Read more",
+        "articles": [
+            {
+                "slug": "starting-armenian-lessons",
+                "category": "Parent guides",
+                "date": "August 10, 2026",
+                "title": "A parent's complete guide to starting Armenian lessons",
+                "description": "Everything you need to know before your child's first lesson: what to prepare, what to expect and how to help them feel confident from day one."
+            },
+            {
+                "slug": "supporting-armenian-homework",
+                "category": "Homework support",
+                "date": "July 28, 2026",
+                "title": "How to support Armenian homework without speaking Armenian",
+                "description": "Practical approaches for non-Armenian-speaking parents to stay involved, ask the right questions and keep homework time low-stress."
+            },
+            {
+                "slug": "keeping-your-child-motivated",
+                "category": "Motivation",
+                "date": "July 14, 2026",
+                "title": "How to keep your child motivated when Armenian feels hard",
+                "description": "Every child hits a wall at some point. Here are the most effective, pressure-free methods to keep your child engaged when a lesson or topic feels frustrating."
+            },
+            {
+                "slug": "tracking-armenian-progress",
+                "category": "Progress",
+                "date": "July 5, 2026",
+                "title": "How to track your child's Armenian learning progress",
+                "description": "Simple, calm ways to notice and celebrate progress between formal assessments, so growth is visible at home too."
+            },
+            {
+                "slug": "creating-an-armenian-friendly-home",
+                "category": "Bilingual parenting",
+                "date": "June 20, 2026",
+                "title": "Creating an Armenian-friendly home: a guide for bilingual parents",
+                "description": "How to create an environment where Armenian feels natural and welcome, even if only one parent speaks the language at home."
+            },
+            {
+                "slug": "20-ways-to-bring-armenian-into-daily-life",
+                "category": "Armenian at home",
+                "date": "June 8, 2026",
+                "title": "20 simple ways to bring Armenian into daily life",
+                "description": "From putting labels on the fridge to Armenian lullabies: small daily habits that turn into real interaction and practice."
+            }
+        ]
+    },
+    "courseGuidesPage": {
+        "breadcrumb": "Course guides",
+        "title": "Course guides",
+        "searchPlaceholder": "Search articles…",
+        "guidesFound": "guides found",
+        "noResults": "No results found",
+        "filters": {
+            "all": "All",
+            "beginner": "Beginner",
+            "intermediate": "Intermediate",
+            "advanced": "Advanced",
+            "individual": "Individual",
+            "group": "Group"
+        },
+        "description": "Everything parents and students need to know about Armat's course levels, formats and structure.",
+        "readMore": "Read more",
+        "guides": [
+            {
+                "slug": "beginner-armenian",
+                "category": "Beginner",
+                "title": "Armenian for Beginners: complete course guide",
+                "description": "Everything parents and new students need to know about starting the Beginner level: what is covered, how long it takes and what to expect in the first weeks."
+            },
+            {
+                "slug": "intermediate-armenian",
+                "category": "Intermediate",
+                "title": "Armenian for Intermediate Learners: course guide",
+                "description": "A detailed look at the Intermediate level: what students learn, how it builds on Beginner skills and how to tell when your child is ready for the next level."
+            },
+            {
+                "slug": "advanced-armenian",
+                "category": "Advanced",
+                "title": "Armenian for Advanced Learners: course guide",
+                "description": "For students who read, write and speak Armenian confidently: what the Advanced level focuses on and what outcomes students should achieve by the end."
+            },
+            {
+                "slug": "individual-lessons",
+                "category": "Individual",
+                "title": "Individual lessons: how they work",
+                "description": "A complete guide to Armat's individual lesson format: scheduling, pace, pricing and how individual lessons differ from group ones."
+            },
+            {
+                "slug": "group-lessons",
+                "category": "Group",
+                "title": "Group lessons: a guide for parents",
+                "description": "How Armat's small-group online lessons work, what to expect from a typical session and why group lessons may suit sociable learners."
+            },
+            {
+                "slug": "choosing-the-right-course",
+                "category": "Beginner",
+                "title": "Choosing the right course: a guide for parents",
+                "description": "Not sure which course suits your child? This guide covers the key questions to ask before enrolling in Beginner, Intermediate or Advanced."
+            }
+        ],
+        "backToGuides": "Back to guides",
+        "relatedGuides": "Related guides"
+    },
+    "resourcesPage": {
+        "breadcrumb": "Free learning resources",
+        "title": "Free learning resources",
+        "description": "Worksheets, flashcards, exercises, games and practice materials to make learning Armenian at home enjoyable.",
+        "searchPlaceholder": "Search articles…",
+        "all": "All",
+        "free": "Free",
+        "paid": "Paid",
+        "categoryLabel": "Category",
+        "levelLabel": "Level",
+        "ageLabel": "Age group",
+        "viewResource": "View resource",
+        "resourceFound": "resource found",
+        "resourcesFound": "resources found",
+        "noResults": "No resources match your filters.",
+        "items": [
+            {
+                "slug": "armenian-alphabet-practice-sheet",
+                "category": "Worksheet",
+                "level": "Beginner",
+                "age": "Ages 5–8",
+                "title": "Armenian alphabet: practice sheet for beginners",
+                "description": "Tracing and writing exercises for all 38 letters of the Armenian alphabet, designed for little ones who are just starting to write."
+            },
+            {
+                "slug": "everyday-vocabulary-flashcards",
+                "category": "Flashcards",
+                "level": "Beginner",
+                "age": "Ages 4–10",
+                "title": "Everyday vocabulary flashcards: 60 cards",
+                "description": "Colorful flashcards covering food, family, colors and everyday objects; great for building vocabulary through play."
+            },
+            {
+                "slug": "armenian-alphabet-chart-poster",
+                "category": "Alphabet",
+                "level": "Beginner",
+                "age": "All ages",
+                "title": "Armenian alphabet chart and poster for the classroom",
+                "description": "A printable A3 alphabet chart showing each letter, its sound and an example word; ideal for a classroom or a child's bedroom wall.",
+                "price": "$12"
+            },
+            {
+                "slug": "reading-comprehension-short-stories",
+                "category": "Worksheet",
+                "level": "Intermediate",
+                "age": "Ages 8–12",
+                "title": "Reading comprehension: short stories in Armenian",
+                "description": "Five short illustrated stories with comprehension questions, created to strengthen reading confidence at the Intermediate level."
+            },
+            {
+                "slug": "armenian-letter-matching-game",
+                "category": "Games",
+                "level": "Beginner",
+                "age": "Ages 5–7",
+                "title": "Armenian letter matching game",
+                "description": "Cut-out cards that pair uppercase and lowercase letters; a hands-on game to reinforce letter recognition.",
+                "price": "$12"
+            },
+            {
+                "slug": "armenian-numbers-writing-practice",
+                "category": "Vocabulary",
+                "level": "Beginner",
+                "age": "Ages 6–9",
+                "title": "Armenian numbers 1–100: writing practice",
+                "description": "Practice writing and pronouncing Armenian numbers from 1 to 100 with guided tracing pages and simple counting exercises."
+            }
+        ],
+        "detail": {
+            "detailsTitle": "Resource details",
+            "suitableFor": "Suitable for",
+            "level": "Level",
+            "language": "Language",
+            "fileFormat": "File format",
+            "pages": "Pages",
+            "pagesUnit": "pages",
+            "lastUpdated": "Last updated",
+            "oneTimePayment": "One-time payment",
+            "buy": "Buy resource",
+            "download": "Download",
+            "free": "Free",
+            "premium": "Premium",
+            "youMayAlsoLike": "You may also like"
+        }
+    },
+    "languageModal": {
+        "welcomeHeading": "Welcome to Armat School!",
+        "subtitle": "Before we begin, in which language would you prefer us to communicate with you?",
+        "description": "We will use your preference for communication with teachers, emails, notifications and support.",
+        "footerNote": "Don't worry: you can change this at any time in your profile.",
+        "next": "Next",
+        "alt": {
+            "background": "Background",
+            "character": "Armat character",
+            "logo": "Armat School logo",
+            "armenianFlag": "Armenian flag",
+            "englishFlag": "English flag"
+        }
+    },
+    "timezoneModal": {
+        "title": "What is your current time zone?",
+        "subtitle": "We will use it to display lesson times and schedules in your local time.",
+        "timezoneLabel": "Time zone",
+        "placeholder": "Select a time zone...",
+        "searchPlaceholder": "Search...",
+        "noResults": "No results found",
+        "helperText": "Don't worry: you can change this at any time in your profile settings.",
+        "continue": "Continue",
+        "closeAriaLabel": "Close",
+        "options": {
+            "amt": "Armenia Time (AMT) — Yerevan",
+            "ct": "Central Time (CT) — Chicago",
+            "mt": "Mountain Time (MT) — Denver",
+            "pt": "Pacific Time (PT) — Los Angeles"
+        },
+        "alt": {
+            "background": "Background",
+            "character": "Character"
+        }
+    },
+    "welcomeModal": {
+        "welcomeBack": "Welcome back",
+        "subtitle": "Ready to continue your Armenian learning?",
+        "continueLearning": "continue learning →",
+        "viewCalendar": "View calendar",
+        "closeAriaLabel": "Close window",
+        "altBackground": "Welcome background",
+        "altDecoration": "Welcoming boy"
+    },
+    "teachers": {
+        "sectionLabel": "Our teachers",
+        "heading": "Qualified native Armenian speakers",
+        "description": "Every Armat teacher is a certified professional and a native Armenian speaker who is passionate about keeping the language alive.",
+        "allTeachers": "All teachers",
+        "viewProfile": "View profile",
+        "items": {
+            "ani": {
+                "name": "Ani Mkrtchyan",
+                "role": "Lead Armenian Teacher",
+                "students": "142 students",
+                "experience": "8 years of experience",
+                "languages": "Armenian, English, Russian",
+                "bio": "Ani holds a degree in Armenian Philology from Yerevan State University and has taught diaspora children across three continents. Her patient, structured approach has helped hundreds of beginners reach conversational fluency.",
+                "tags": [
+                    "Beginners",
+                    "Children 5–10",
+                    "Eastern Armenian"
+                ]
+            },
+            "mariam": {
+                "name": "Mariam Petrosyan",
+                "role": "Senior Language Instructor",
+                "students": "98 students",
+                "experience": "6 years of experience",
+                "languages": "Armenian, English, French",
+                "bio": "Mariam is a published author of Armenian-language children's books and brings his love of storytelling into every lesson. He specializes in Western Armenian and cultural immersion techniques.",
+                "tags": [
+                    "Teenagers",
+                    "Conversation",
+                    "Grammar"
+                ]
+            },
+            "nare": {
+                "name": "Nare Hovhannisyan",
+                "role": "Elementary Specialist",
+                "students": "210 students",
+                "experience": "11 years of experience",
+                "languages": "Armenian, English, Spanish",
+                "bio": "Nare is a certified early childhood educator who has developed Armat's core curriculum for ages 4–8. Her lessons are playful, energetic, and built around the latest research in language acquisition.",
+                "tags": [
+                    "Adults",
+                    "Advanced",
+                    "Western Armenian"
+                ]
+            }
+        }
+    },
+    "testimonials": {
+        "sectionLabel": "FAMILIES LOVE ARMAT",
+        "heading": "Real Families. Real Results.",
+        "items": {
+            "sarah": {
+                "quote": "“My daughter went from knowing zero Armenian to reading full sentences in 3 months.”",
+                "name": "Sara M.",
+                "location": "🇺🇸 Los Angeles, USA",
+                "initials": "SM"
+            },
+            "armen": {
+                "quote": "“We tried many platforms but Armat is different. Personal, premium, and actually fun for our kids.”",
+                "name": "Armen K.",
+                "location": "🇦🇺 Sydney, Australia",
+                "initials": "AK"
+            },
+            "lena": {
+                "quote": "“Connecting my children to our culture through language was a dream. Armat made it real.”",
+                "name": "Lena H.",
+                "location": "🇫🇷 Paris, France",
+                "initials": "LH"
+            }
+        },
+        "readMore": "Read more reviews"
+    },
+    "reviewsPage": {
+        "backToHome": "← Back to home",
+        "title": "All reviews",
+        "writeReview": "+ Leave a review",
+        "allRatings": "All ratings",
+        "reviews": "reviews",
+        "readMore": "Read more",
+        "showLess": "Show less",
+        "fullReview": "Full review",
+        "empty": "No reviews yet.",
+        "items": [
+            {
+                "text": "“An excellent program with dedicated native Armenian-speaking teachers.”",
+                "name": "Anna V.",
+                "initials": "AV",
+                "location": "Berlin, Germany"
+            },
+            {
+                "text": "“The flexible schedule is a lifesaver for our busy family.”",
+                "name": "David T.",
+                "initials": "DT",
+                "location": "Toronto, Canada"
+            },
+            {
+                "text": "“Connecting my children to our culture through their mother tongue was a dream. Armat made it a reality.”",
+                "name": "Lena H.",
+                "initials": "LH",
+                "location": "Paris, France"
+            },
+            {
+                "text": "“We had tried many platforms, but Armat is different. It's personal, premium and truly enjoyable for our children.”",
+                "name": "Armen K.",
+                "initials": "AK",
+                "location": "Sydney, Australia"
+            },
+            {
+                "text": "“My daughter learned Armenian from scratch and in 3 months she is already reading full sentences.”",
+                "name": "Sara M.",
+                "initials": "SM",
+                "location": "Los Angeles, USA"
+            }
+        ],
+        "writeReviewModal": {
+            "title": "Leave a review",
+            "subtitle": "Share your experience with Armat Academy",
+            "closeAria": "Close",
+            "rating": "Your rating *",
+            "starAriaOne": "{count} star",
+            "starAriaOther": "{count} stars",
+            "firstName": "First name *",
+            "firstNamePlaceholder": "e.g. Sara",
+            "lastName": "Last name",
+            "lastNamePlaceholder": "e.g. Petrosyan",
+            "location": "Location",
+            "locationPlaceholder": "e.g. 🇺🇸 Los Angeles, USA",
+            "review": "Your review *",
+            "reviewPlaceholder": "Tell others about your experience...",
+            "cancel": "Cancel",
+            "submit": "Submit review"
+        }
+    },
+    "coursesSection": {
+        "eyebrow": "Pricing",
+        "title": "Our courses",
+        "paymentNote": "All payments are SSL-encrypted and PCI compliant."
+    },
+    "courseMeta": {
+        "lessons": "lessons"
+    },
+    "coursesData": {
+        "beginner": {
+            "title": "Armenian for Beginners",
+            "description": "Designed for beginners and diaspora Armenians rediscovering their roots.",
+            "level": "Beginner",
+            "format": "Online"
+        },
+        "intermediate": {
+            "title": "Armenian for Intermediate Learners",
+            "description": "For those who know the basics and want to develop fluent speaking skills.",
+            "level": "Standard",
+            "format": "Online"
+        },
+        "advanced": {
+            "title": "Armenian for Advanced Learners",
+            "description": "For confident speakers aiming for near-native fluency.",
+            "level": "Advanced",
+            "format": "Online"
+        }
+    },
+    "courseDetail": {
+        "badge": "Live online",
+        "category": "Language course",
+        "studentsEnrolled": "{count} students already enrolled",
+        "features": {
+            "liveOnline": "Live online",
+            "homework": "Homework",
+            "feedback": "Teacher feedback",
+            "materials": "Learning materials",
+            "progress": "Progress tracking",
+            "certificate": "Certificate"
+        },
+        "instructor": {
+            "label": "Instructor",
+            "experienceLabel": "Experience",
+            "languageLabel": "Language",
+            "languageValue": "Armenian",
+            "certified": "Certified teacher"
+        },
+        "units": {
+            "hourOne": "{count} hour",
+            "hourOther": "{count} hours",
+            "monthOne": "{count} month",
+            "monthOther": "{count} months"
+        },
+        "learn": {
+            "heading": "What you will learn",
+            "metaOne": "{lessons} lessons · {hours} h total",
+            "metaOther": "{lessons} lessons · {hours} h total"
+        },
+        "pricing": {
+            "individualLesson": "Individual lesson",
+            "certificateValue": "Included",
+            "facts": {
+                "lessonDuration": "Lesson duration",
+                "courseDuration": "Course duration",
+                "lessonsPerWeek": "Lessons per week",
+                "totalLessons": "Total number of lessons",
+                "level": "Level",
+                "language": "Language",
+                "format": "Format",
+                "lessonFormat": "Lesson format",
+                "certificate": "Certificate"
+            }
+        },
+        "schedule": {
+            "title": "Your preferred schedule",
+            "description": "Tell us which days and times suit you. The teacher will confirm the final schedule with you.",
+            "preferredDays": "Preferred days *",
+            "from": "From",
+            "to": "To",
+            "timeZone": "Your time zone *",
+            "timeZoneNote": "All times are shown in your local time.",
+            "removeDay": "Remove",
+            "days": {
+                "monday": "Monday",
+                "tuesday": "Tuesday",
+                "wednesday": "Wednesday",
+                "thursday": "Thursday",
+                "friday": "Friday",
+                "saturday": "Saturday",
+                "sunday": "Sunday"
+            }
+        },
+        "promo": {
+            "label": "Have a promo code?",
+            "placeholder": "Enter promo code"
+        },
+        "enroll": "Enroll",
+        "other": {
+            "heading": "Other packages",
+            "packages": {
+                "individual": {
+                    "tag": "Small package",
+                    "title": "Individual · 4 lessons"
+                },
+                "groupSmall": {
+                    "tag": "Small package",
+                    "title": "Group · 4 lessons"
+                },
+                "groupLarge": {
+                    "tag": "Large package",
+                    "title": "Group · 8 lessons"
+                }
+            }
+        },
+        "courses": {
+            "beginner": {
+                "subtitle": "Interactive live Armenian lessons for beginners.",
+                "description": "Learn Armenian step by step with experienced teachers in comfortable online lessons. Start with the alphabet, and by the end of the course you will be able to read, write and hold simple conversations.",
+                "modules": [
+                    {
+                        "title": "The Armenian alphabet",
+                        "description": "Learn the 38 letters of the Armenian alphabet, their sounds and writing rules, step by step with a teacher."
+                    },
+                    {
+                        "title": "Family and home vocabulary",
+                        "description": "Learn basic Armenian words and phrases related to family members, home and everyday life."
+                    },
+                    {
+                        "title": "Numbers, colors and time",
+                        "description": "Learn to use Armenian numbers, recognize colors and tell the time in everyday situations."
+                    },
+                    {
+                        "title": "Stories and culture",
+                        "description": "Get acquainted with simple Armenian stories, traditions and cultural features."
+                    },
+                    {
+                        "title": "Basic conversations",
+                        "description": "Practice common Armenian conversations: introductions, greetings, shopping and everyday situations."
+                    },
+                    {
+                        "title": "Reading and writing",
+                        "description": "Develop basic Armenian reading and writing skills through short texts and guided exercises."
+                    }
+                ]
+            },
+            "intermediate": {
+                "subtitle": "Live lessons that turn your foundation into confident, fluent speech.",
+                "description": "For those who know the basics and want to develop fluent speaking skills. Deepen your grammar, enrich your vocabulary and practice real conversations with a native Armenian-speaking teacher.",
+                "modules": [
+                    {
+                        "title": "Grammar foundations",
+                        "description": "Master cases, verb tenses and sentence structure to express your thoughts accurately."
+                    },
+                    {
+                        "title": "Everyday conversations",
+                        "description": "Practice fluent dialogues for travel, shopping, work and social situations."
+                    },
+                    {
+                        "title": "Reading short texts",
+                        "description": "Read short articles and stories and learn to understand them without translating word by word."
+                    },
+                    {
+                        "title": "Written exercises",
+                        "description": "Write letters, short paragraphs and simple essays with the teacher's guidance and feedback."
+                    },
+                    {
+                        "title": "Vocabulary expansion",
+                        "description": "Enrich your vocabulary with topics from work and health to hobbies and technology."
+                    },
+                    {
+                        "title": "Culture and media",
+                        "description": "Explore Armenian songs, films and traditions to hear the language as it is actually spoken."
+                    }
+                ]
+            },
+            "advanced": {
+                "subtitle": "Live lessons for confident speakers aiming for a near-native level.",
+                "description": "For confident speakers aiming for near-native fluency. Master complex grammar, perfect your pronunciation and discuss literature, history and current topics.",
+                "modules": [
+                    {
+                        "title": "Complex grammar",
+                        "description": "Master advanced structures, participles and the stylistic nuances used by native speakers."
+                    },
+                    {
+                        "title": "Fluent conversation",
+                        "description": "Discuss current topics confidently, with natural pace, pronunciation and intonation."
+                    },
+                    {
+                        "title": "Literature and reading",
+                        "description": "Read excerpts of Armenian literature and poetry and analyze the language, themes and style."
+                    },
+                    {
+                        "title": "Formal and academic writing",
+                        "description": "Write formal letters, essays and reports with the correct style and structure."
+                    },
+                    {
+                        "title": "Idioms and expressions",
+                        "description": "Learn idioms, proverbs and expressions that make your Armenian truly natural."
+                    },
+                    {
+                        "title": "Presentations and debate",
+                        "description": "Prepare and deliver presentations and take part in debates to build confidence at a near-native level."
+                    }
+                ]
+            }
+        }
+    },
+    "about": {
+        "hero": {
+            "label": "About Armat",
+            "title": "We are here so that Armenian lives on.",
+            "description": "Armat was founded by diaspora Armenians who know well how fragile a mother tongue is when it is not spoken at home. We make learning Armenian structured, joyful and accessible."
+        },
+        "story": {
+            "label": "Our story",
+            "title": "Born from the desire to preserve what is most precious.",
+            "p1": "Armat was born out of necessity. Our founders — diaspora Armenians from across four continents — watched as Armenian fluency declined with each passing generation. Schools were too far. Teachers were scarce. Schedules didn't fit.",
+            "p2": "So we built Armat: a premium, structured, live online school where children anywhere in the world can learn Armenian with professional teachers, in small groups, at a pace that works for their family.",
+            "pillars": {
+                "mission": {
+                    "title": "Our mission",
+                    "description": "To provide every Armenian diaspora child with access to world-class native language education, regardless of where they live in the world."
+                },
+                "vision": {
+                    "title": "Our vision",
+                    "description": "A world where every Armenian child grows up fluent in their ancestral language and deeply connected to their 1,600-year-old cultural heritage."
+                },
+                "values": {
+                    "title": "Our values",
+                    "description": "Quality, authenticity, accessibility, and deep respect for the Armenian written tradition. We believe language is identity — and identity should never be lost."
+                }
+            }
+        },
+        "method": {
+            "label": "Our method",
+            "title": "A proven path from beginner to fluency.",
+            "description": "Our structured seven-step approach ensures no student falls through the cracks — every child is seen, heard, and supported at every stage of their journey.",
+            "steps": {
+                "assessment": {
+                    "title": "Level assessment",
+                    "description": "Every new student completes a short placement assessment so we understand their current level and tailor the experience from day one."
+                },
+                "learningPlan": {
+                    "title": "Learning plan",
+                    "description": "A personalized learning roadmap is crafted for each student, setting clear goals and milestones for the weeks ahead."
+                },
+                "liveLessons": {
+                    "title": "Live lessons",
+                    "description": "Interactive, teacher-led live sessions held in small groups of up to 6 students — energetic, structured, and engaging."
+                },
+                "homework": {
+                    "title": "Homework",
+                    "description": "Targeted homework assignments reinforce every lesson concept, building fluency through consistent daily practice."
+                },
+                "teacherFeedback": {
+                    "title": "Teacher feedback",
+                    "description": "Detailed written feedback is provided by the teacher after every assignment, highlighting strengths and areas to improve."
+                },
+                "progressReports": {
+                    "title": "Progress reports",
+                    "description": "Parents receive transparent monthly progress reports with skill-level breakdowns and actionable recommendations."
+                },
+                "certification": {
+                    "title": "Certification",
+                    "description": "Upon completing each course level, students receive an official Armat certificate recognizing their achievement."
+                }
+            }
+        }
+    },
+    "faq": {
+        "sectionLabel": "FAQ",
+        "heading": "Frequently asked questions",
+        "items": {
+            "ageGroups": {
+                "question": "What age groups do you teach?",
+                "answer": "We teach children over 4 years old, teenagers, adults and seniors. Each group has a dedicated curriculum designed for their learning style and goals."
+            },
+            "dialects": {
+                "question": "Do you offer both Eastern and Western Armenian?",
+                "answer": "Yes, we offer full courses in both Eastern and Western Armenian, with specialized native Armenian-speaking teachers for each branch."
+            },
+            "lessonDuration": {
+                "question": "How long are the lessons?",
+                "answer": "Standard lessons last 45 or 60 minutes, depending on the student's age and the chosen program."
+            },
+            "platform": {
+                "question": "What platform do you use for live lessons?",
+                "answer": "We use Zoom or Google Meet, with interactive whiteboard and screen-sharing tools."
+            },
+            "reschedule": {
+                "question": "Can I reschedule or cancel a lesson?",
+                "answer": "Yes, you can reschedule or cancel a lesson at least 24 hours in advance without any penalty."
+            },
+            "commitment": {
+                "question": "Is a long-term commitment required?",
+                "answer": "No, no long-term commitment is required. You can choose flexible monthly plans or lesson packages and stop at any time."
+            }
+        }
+    },
+    "freeTrialBooking": {
+        "heroTitleLine1": "Choose your",
+        "heroTitleLine2": "free trial lesson",
+        "heroBadge": "Free trial lesson",
+        "heroSubtitle": "Your request has been successfully received. Now simply choose a date and time that suit you to book your lesson.",
+        "imageAlt": "Free trial lesson",
+        "widgetTitle": "Armat · Free trial lesson",
+        "duration": "2 hours",
+        "online": "Online",
+        "free": "Free",
+        "prevMonthAriaLabel": "Previous month",
+        "nextMonthAriaLabel": "Next month",
+        "legendScheduled": "Lesson scheduled",
+        "legendToday": "Today",
+        "selectedSlotLabel": "Selected time",
+        "pickTimeSlot": "Pick a time slot",
+        "confirmBooking": "Confirm booking",
+        "pickDateFirstTitle": "Pick a date first",
+        "pickDateFirstBody": "Choose any highlighted date in the calendar to see the available times.",
+        "slotsAvailableThisMonth": "Free slots available this month",
+        "needDifferentTimeTitle": "Need a different time?",
+        "needDifferentTimeBody": "Can't find a time that suits you? Contact us directly.",
+        "emailUs": "Email us",
+        "confirmationNoticePrefix": "After you choose your time, you will automatically receive a ",
+        "confirmationEmail": "confirmation email",
+        "confirmationNoticeMiddle": " and a ",
+        "calendarInvitation": "calendar invitation",
+        "confirmationNoticeSuffix": " with your lesson link.",
+        "needHelpPrefix": "Need help? ",
+        "supportHref": "#",
+        "contactSupport": "Contact our support team",
+        "needHelpSuffix": " — we reply within 2 hours.",
+        "sslSecured": "SSL secured",
+        "availableWorldwide": "Available worldwide",
+        "copyright": "© 2026 Armat",
+        "faq": [
+            {
+                "q": "Can I reschedule my lesson?",
+                "a": "Yes, of course. You can reschedule your lesson up to 24 hours before it starts, free of charge. Just reply to the confirmation email or contact our support team."
+            },
+            {
+                "q": "How long is the trial lesson?",
+                "a": "The free trial lesson lasts 2 hours and is held entirely online with one of our teachers."
+            },
+            {
+                "q": "Is it really completely free?",
+                "a": "Yes, the trial lesson is 100% free, with no hidden fees and no obligation to continue."
+            },
+            {
+                "q": "What do I need for the lesson?",
+                "a": "Just a stable internet connection, a camera and microphone, and a quiet place to concentrate during the lesson."
+            }
+        ]
+    },
+    "privacyPolicy": {
+        "title": "Privacy Policy",
+        "lastUpdated": "Last updated: July 1, 2026",
+        "sections": [
+            {
+                "heading": "1. Introduction",
+                "body": "Armat Academy (“Armat”) operates the online Armenian learning platform available at armat.school. This Privacy Policy explains how we collect, use and protect your personal data when you use our services."
+            },
+            {
+                "heading": "2. Services",
+                "body": "We provide live individual and group Armenian lessons, self-paced courses and supplementary learning materials through our website and connected communication tools."
+            },
+            {
+                "heading": "3. Payments",
+                "body": "All lesson packages are prepaid. We accept Stripe and other supported payment methods. Prices are displayed in the currency shown at checkout and may be subject to applicable taxes."
+            },
+            {
+                "heading": "4. Refunds",
+                "body": "Packages are eligible for a full refund within 30 days of purchase if no more than one lesson has been used. Requests submitted after this period are considered individually."
+            },
+            {
+                "heading": "5. Privacy",
+                "body": "We collect and process only the personal data necessary to provide our services, including your name, email address, payment details and lesson history. We do not sell your personal data to third parties."
+            },
+            {
+                "heading": "6. Governing law",
+                "body": "These terms are governed by the laws of the Republic of Armenia. Any dispute related to the use of our services will be resolved within the jurisdiction of the courts of Armenia."
+            }
+        ]
+    },
+    "freeLesson": {
+        "badge": "Free lesson",
+        "heading": "Book your free lesson",
+        "subtitle": "No credit card required. No obligation.",
+        "steps": {
+            "personalInfo": {
+                "parentNotice": "If you are a parent registering your child, please enter your (parent/guardian) details below.",
+                "firstName": "First name",
+                "firstNamePlaceholder": "Sara",
+                "lastName": "Last name",
+                "lastNamePlaceholder": "Petrosyan",
+                "birthDate": "Date of birth",
+                "phoneNumber": "Phone number",
+                "phoneNumberPlaceholder": "+374 (00) 000-000",
+                "email": "Email address",
+                "emailPlaceholder": "you@example.com",
+                "parentEmail": "Parent's email address",
+                "parentEmailPlaceholder": "parent@example.com",
+                "companyName": "Company name",
+                "companyNamePlaceholder": "Company name",
+                "continue": "Continue",
+                "registeringFor": {
+                    "me": "For myself",
+                    "child": "For my child",
+                    "other": "Other"
+                }
+            },
+            "contactDetails": {
+                "back": "Back",
+                "location": "Location",
+                "country": "Country",
+                "countryPlaceholder": "Select a country…",
+                "countryNoResults": "No countries found",
+                "timezone": "Time zone",
+                "timezonePlaceholder": "Select a time zone…",
+                "timezoneHelper": "The time zone was detected automatically from your browser; you can change it above.",
+                "timezones": [
+                    "Armenia Time (AMT) — Yerevan",
+                    "Pacific Time (PT)",
+                    "Eastern Time (ET)",
+                    "Central European Time (CET)",
+                    "Moscow Time (MSK)"
+                ],
+                "contactMethodTitle": "Preferred contact method",
+                "contactMethodSubtitle": "How should we contact you?",
+                "instagramLabel": "Instagram username",
+                "instagramPlaceholder": "@your_username",
+                "continue": "Continue"
+            },
+            "learningInfo": {
+                "back": "Back",
+                "heading": "Learning information",
+                "additionalInfoTitle": "Additional information",
+                "additionalInfoSubtitle": "Optional: helps us prepare the best experience.",
+                "disabilitiesLabel": "Does the student have any learning difficulties?",
+                "disabilitiesPlaceholder": "e.g. dyslexia, ADHD, hearing impairment, so that we can adapt the lesson",
+                "otherNotesLabel": "Other notes",
+                "otherNotesPlaceholder": "Anything else you would like us to know before the trial lesson",
+                "continue": "Continue",
+                "armenianLevel": {
+                    "label": "Current Armenian level",
+                    "placeholder": "Select your level…",
+                    "options": {
+                        "elementary": "Elementary: knows some words and phrases",
+                        "can-read-write": "Can read and write, needs speaking practice",
+                        "not-speak": "Understands but does not speak",
+                        "cannot-read-write": "Speaks but cannot read or write",
+                        "cannot-read-write-speak": "Cannot read, write or speak",
+                        "other": "Other"
+                    }
+                },
+                "timePicker": {
+                    "label": "Preferred time",
+                    "placeholder": "Select a preferred time…"
+                },
+                "dayChips": {
+                    "labels": {
+                        "Mon": "Mon",
+                        "Tue": "Tue",
+                        "Wed": "Wed",
+                        "Thu": "Thu",
+                        "Fri": "Fri",
+                        "Sat": "Sat",
+                        "Sun": "Sun"
+                    }
+                }
+            }
+        },
+        "savedScreen": {
+            "title": "Details saved!",
+            "description": "Your details have been securely saved. Next, you will be redirected to choose a lesson time.",
+            "redirecting": "Redirecting to Calendly…",
+            "secureNote": "Your details are stored securely before scheduling.",
+            "openNow": "Open Calendly now"
+        },
+        "allSet": {
+            "title": "All set!",
+            "duration": "Duration: 30 minutes · via Google Meet",
+            "returnHome": "Return to home page"
+        },
+        "students": {
+            "back": "Back",
+            "studentLabel": "Student",
+            "firstName": "First name",
+            "firstNamePlaceholder": "e.g. Ani",
+            "lastName": "Last name",
+            "lastNamePlaceholder": "Hovhannisyan",
+            "addAnotherStudent": "Add another student",
+            "removeStudent": "Remove student",
+            "continue": "Continue"
+        }
+    },
+    "contactPage": {
+        "label": "Contact",
+        "title": "Get in Touch",
+        "subtitle": "We'll get back to you within 24 hours.",
+        "form": {
+            "title": "Send us a message",
+            "firstName": "First Name",
+            "firstNamePlaceholder": "Your first name",
+            "lastName": "Last Name",
+            "lastNamePlaceholder": "Your last name",
+            "email": "Email Address *",
+            "emailPlaceholder": "you@example.com",
+            "phone": "Phone Number",
+            "phonePlaceholder": "+1 (555) 000-0000",
+            "subject": "Subject",
+            "subjectPlaceholder": "What is your message about?",
+            "message": "Message",
+            "messagePlaceholder": "Write your message here…",
+            "submit": "Send Message",
+            "sending": "Sending…",
+            "success": "Thank you! Your message has been sent.",
+            "error": "Something went wrong. Please try again."
+        },
+        "info": {
+            "phone": "Phone Number",
+            "email": "Email Address",
+            "workingHours": "Working Hours",
+            "workingHoursValue": "Mon–Fri, 9:00 AM – 7:00 PM (Yerevan time)"
+        }
+    },
+    "dashboard": {
+        "nav": {
+            "section": "Navigation",
+            "myLessons": "My Lessons",
+            "calendar": "Calendar",
+            "homework": "Homework",
+            "materials": "Materials",
+            "messages": "Messages",
+            "courses": "Courses",
+            "profile": "Profile",
+            "settings": "Settings",
+            "backToSite": "Back to Site"
+        },
+        "user": {
+            "name": "Emma Petrosyan",
+            "short": "Emma P.",
+            "initial": "E",
+            "status": "Active · 4 lessons left",
+            "logoutAria": "Log out",
+            "notificationsAria": "Notifications"
+        },
+        "lessons": {
+            "title": "My Lessons",
+            "tabs": {
+                "all": "All",
+                "completed": "Completed",
+                "upcoming": "Upcoming"
+            },
+            "completed": "Completed",
+            "upcoming": "Upcoming",
+            "join": "Join",
+            "review": "Review",
+            "at": "at",
+            "empty": "No lessons found.",
+            "prevAria": "Previous page",
+            "nextAria": "Next page"
+        },
+        "items": [
+            {
+                "id": "u1-alphabet",
+                "title": "Unit 1 — The Armenian Alphabet",
+                "teacher": "Ani Sargsyan",
+                "feedback": "Great progress on letter recognition!"
+            },
+            {
+                "id": "u1-practice",
+                "title": "Unit 1 — Alphabet Practice",
+                "teacher": "Ani Sargsyan",
+                "feedback": "Work on the letters Ծ and Ձ at home."
+            },
+            {
+                "id": "u2-vocab",
+                "title": "Unit 2 — Family Vocabulary",
+                "teacher": "Ani Sargsyan",
+                "feedback": "Excellent vocabulary retention!"
+            },
+            {
+                "id": "u2-sentences",
+                "title": "Unit 2 — Family Sentences",
+                "teacher": "Ani Sargsyan",
+                "feedback": "Good sentence structure."
+            },
+            {
+                "id": "u3-numbers",
+                "title": "Unit 3 — Numbers & Colors",
+                "teacher": "Ani Sargsyan"
+            },
+            {
+                "id": "u3-review",
+                "title": "Unit 3 — Review & Practice",
+                "teacher": "Ani Sargsyan"
+            },
+            {
+                "id": "u4-story",
+                "title": "Unit 4 — Storytelling",
+                "teacher": "Ani Sargsyan"
+            }
+        ],
+        "calendar": {
+            "title": "Calendar",
+            "prevMonthAria": "Previous month",
+            "nextMonthAria": "Next month",
+            "legendScheduled": "Lesson scheduled",
+            "legendToday": "Today",
+            "noLessons": "No lessons on this day.",
+            "thisMonth": "This Month",
+            "stats": {
+                "completed": "Lessons completed",
+                "remaining": "Lessons remaining",
+                "homework": "Homework submitted",
+                "avgScore": "Avg session score"
+            }
+        },
+        "homework": {
+            "title": "Homework",
+            "types": {
+                "writing": "Writing",
+                "vocabulary": "Vocabulary",
+                "grammar": "Grammar",
+                "reading": "Reading"
+            },
+            "status": {
+                "pending": "Pending",
+                "submitted": "Submitted",
+                "graded": "Graded",
+                "overdue": "Time is up",
+                "retry": "Try Again"
+            },
+            "deadline": "Deadline: {date}",
+            "dueIn": "Due in {days}d {hours}h",
+            "dueInHours": "Due in {hours}h",
+            "instructions": "Instructions",
+            "dropTitle": "Drop files here or browse",
+            "dropHint": "JPG, PNG, PDF up to 10MB",
+            "fileTooBig": "{name} is larger than 10MB.",
+            "fileBadType": "{name}: unsupported file type.",
+            "removeFile": "Remove file",
+            "yourResponse": "Your Response",
+            "responsePlaceholder": "Write your answer here...",
+            "characters": "{count} characters",
+            "submit": "Submit Homework",
+            "teacherFeedback": "Teacher Feedback",
+            "download": "Download",
+            "summaryTitle": "Submission Summary",
+            "summary": {
+                "pending": "Pending",
+                "submitted": "Submitted",
+                "graded": "Graded",
+                "onTime": "On-time rate"
+            },
+            "gradedTitle": "Graded",
+            "gradedEmpty": "No graded homework yet.",
+            "gradedSubmitted": "Submitted | {date}",
+            "deadlineNote": "Deadline shown in your local time.",
+            "items": [
+                {
+                    "id": "hw-writing",
+                    "title": "Alphabet Writing Practice",
+                    "instructions": "Write each letter of the Armenian alphabet 5 times in your notebook, then upload a photo of the page.",
+                    "tags": [
+                        "Lesson 1"
+                    ]
+                },
+                {
+                    "id": "hw-vocab-u3",
+                    "title": "Unit 3 Vocabulary List",
+                    "instructions": "Write each vocabulary word 3 times in your notebook, then use five of the words in sentences of your own.",
+                    "tags": [
+                        "Unit 3"
+                    ]
+                },
+                {
+                    "id": "hw-vocab-u2",
+                    "title": "Unit 2 Vocabulary List",
+                    "instructions": "Write each family word 3 times in your notebook and say it aloud.",
+                    "tags": [
+                        "Unit 2"
+                    ]
+                },
+                {
+                    "id": "hw-sentences",
+                    "title": "Unit 2 Sentences",
+                    "instructions": "Write 5 sentences about your family using the new vocabulary.",
+                    "tags": [
+                        "Unit 2"
+                    ]
+                },
+                {
+                    "id": "hw-recognition",
+                    "title": "Unit 1 Alphabet Recognition",
+                    "instructions": "Read the short passage aloud and answer the questions.",
+                    "tags": [
+                        "Unit 1",
+                        "Alphabet",
+                        "Reading"
+                    ],
+                    "feedback": "Great work! Watch your use of prepositions in longer sentences."
+                }
+            ]
+        },
+        "materials": {
+            "title": "Materials",
+            "downloadBook": "Download Book",
+            "view": "View",
+            "watch": "Watch",
+            "letsDo": "Let’s Do",
+            "unit": "Unit {n}",
+            "units": {
+                "MB": "MB",
+                "KB": "KB"
+            },
+            "items": [
+                {
+                    "id": "m-flashcards",
+                    "title": "Unit 1 — Alphabet Flashcards",
+                    "teacher": "Ani Sargsyan"
+                },
+                {
+                    "id": "m-family-vocab",
+                    "title": "Lesson 2 — Family Vocabulary",
+                    "teacher": "Ani Sargsyan"
+                },
+                {
+                    "id": "m-family-sentences",
+                    "title": "Lesson 3 — Family Sentences",
+                    "teacher": "Ani Sargsyan"
+                },
+                {
+                    "id": "m-numbers",
+                    "title": "Unit 3 — Numbers Worksheet",
+                    "teacher": "Ani Sargsyan"
+                },
+                {
+                    "id": "m-colors",
+                    "title": "Unit 3 — Colors Worksheet",
+                    "teacher": "Ani Sargsyan"
+                },
+                {
+                    "id": "m-song",
+                    "title": "Armenian Alphabet Song",
+                    "teacher": "Ani Sargsyan"
+                }
+            ]
+        },
+        "messages": {
+            "title": "Messages",
+            "online": "Online",
+            "tabs": {
+                "teacher": "Teacher Chat",
+                "updates": "Armat Updates"
+            },
+            "teacher": {
+                "name": "Ani Sargsyan"
+            },
+            "timezone": {
+                "title": "Time Zones",
+                "closeAria": "Close",
+                "yourTime": "Your Time",
+                "teacherTime": "Teacher’s Time",
+                "teacherShort": "Teacher",
+                "studentCity": "New York",
+                "teacherCity": "Yerevan",
+                "note": "Times are automatically adjusted to each user’s local time."
+            },
+            "composer": {
+                "placeholder": "Write a message to your teacher…",
+                "attachAria": "Attach a file",
+                "emojiAria": "Insert emoji",
+                "sendAria": "Send message",
+                "removeAttachment": "Remove attachment"
+            },
+            "updates": {
+                "empty": "No updates yet.",
+                "items": [
+                    {
+                        "id": "u1",
+                        "title": "New materials added",
+                        "body": "Unit 3 worksheets and the alphabet song are now available in Materials."
+                    },
+                    {
+                        "id": "u2",
+                        "title": "Schedule reminder",
+                        "body": "Your next lesson is on July 21 at 10:00 AM. Don’t forget your homework."
+                    },
+                    {
+                        "id": "u3",
+                        "title": "Fall 2027 enrollment is open",
+                        "body": "Early registration for the Fall 2027 semester has started."
+                    },
+                    {
+                        "id": "u4",
+                        "title": "Armenian Game Hour",
+                        "body": "Join our next game session. Free for enrolled students."
+                    },
+                    {
+                        "id": "u5",
+                        "title": "Welcome to Armat School",
+                        "body": "We’re glad to have you. Explore your dashboard to get started."
+                    }
+                ]
+            }
+        },
+        "courses": {
+            "title": "Courses",
+            "tabs": {
+                "other": "Other Courses",
+                "mine": "My Courses",
+                "completed": "Completed"
+            },
+            "searchPlaceholder": "Search courses…",
+            "searchAria": "Search courses",
+            "typeAria": "Filter by course type",
+            "types": {
+                "all": "All Types",
+                "online": "Online",
+                "offline": "In person"
+            },
+            "levels": {
+                "beginner": "Beginner",
+                "intermediate": "Intermediate",
+                "advanced": "Advanced"
+            },
+            "formats": {
+                "online": "Online",
+                "offline": "In person"
+            },
+            "lessons": "{count} Lessons",
+            "aboutCourse": "About This Course",
+            "teacher": "Teacher",
+            "schedule": "Course Schedule",
+            "scheduleValue": "{start} – {end} · {hours} hr / lesson",
+            "expandAria": "Show course details",
+            "collapseAria": "Hide course details",
+            "empty": "No courses found.",
+            "items": [
+                {
+                    "id": "beginner-armenian",
+                    "title": "Beginner Armenian",
+                    "description": "Designed for complete beginners and heritage learners who want to start speaking Armenian with confidence.",
+                    "about": "Build confidence in everyday Armenian through structured lessons covering the alphabet, essential vocabulary, basic grammar and simple conversations.",
+                    "teacher": "Ms. Sarah Williams"
+                },
+                {
+                    "id": "conversational-armenian",
+                    "title": "Conversational Armenian",
+                    "description": "Practice real-life dialogues and expand your vocabulary for travel, family and daily communication.",
+                    "about": "Focus on speaking and listening through role-plays, guided discussions and cultural topics to help you communicate naturally.",
+                    "teacher": "Ani Sargsyan"
+                },
+                {
+                    "id": "armenian-reading-writing",
+                    "title": "Armenian Reading & Writing",
+                    "description": "Learn to read and write in the Armenian script with step-by-step guided practice.",
+                    "about": "Master letter forms, spelling and reading short texts, with weekly writing exercises and teacher feedback.",
+                    "teacher": "Ani Sargsyan"
+                },
+                {
+                    "id": "armenian-culture",
+                    "title": "Armenian Culture & Traditions",
+                    "description": "Explore Armenian history, holidays and traditions while improving your language skills.",
+                    "about": "Discuss literature, music and customs, and learn the vocabulary that brings Armenian culture to life.",
+                    "teacher": "Ms. Sarah Williams"
+                }
+            ]
+        },
+        "profile": {
+            "title": "My Profile",
+            "plan": "Starter Plan — {n} Lessons",
+            "memberSince": "Member since {date}",
+            "country": "United States",
+            "comingSoon": "This section is coming soon.",
+            "stats": {
+                "lessonsDone": "Lessons Done",
+                "levelProgress": "Level Progress",
+                "homeworkRate": "Homework Rate",
+                "certificates": "Certificates"
+            },
+            "tabs": {
+                "learning": "Learning",
+                "certificates": "Certificates",
+                "payments": "Payments",
+                "favorites": "Favorites"
+            },
+            "payments": {
+                "title": "Payment History",
+                "status": {
+                    "paid": "Paid",
+                    "unpaid": "Unpaid"
+                },
+                "items": [
+                    {
+                        "id": "pay-3",
+                        "title": "Premium Package — 3 months"
+                    },
+                    {
+                        "id": "pay-2",
+                        "title": "Premium Package — 3 months"
+                    },
+                    {
+                        "id": "pay-1",
+                        "title": "Standard Package — 1 month"
+                    }
+                ]
+            },
+            "favorites": {
+                "filters": {
+                    "all": "All",
+                    "courses": "Courses",
+                    "events": "Events",
+                    "articles": "Articles",
+                    "resources": "Resources"
+                },
+                "readMore": "Read More",
+                "viewResource": "View Resource",
+                "removeAria": "Remove from favorites",
+                "shareAria": "Share",
+                "linkCopied": "Link copied",
+                "empty": "No favorites yet.",
+                "items": [
+                    {
+                        "id": "fav-guide-beginner",
+                        "category": "Beginner",
+                        "title": "Beginner Armenian — Complete Course Guide",
+                        "description": "Everything parents and new students need to know about starting the Beginner level: what is covered, how long it takes and what to expect in the first weeks."
+                    },
+                    {
+                        "id": "fav-flashcards",
+                        "category": "Flashcards",
+                        "level": "Beginner",
+                        "age": "Ages 4–10",
+                        "title": "Everyday Vocabulary Flashcards — 60 Cards",
+                        "description": "Colourful flashcards covering food, family, colours and everyday objects; great for building vocabulary through play."
+                    },
+                    {
+                        "id": "fav-alphabet-chart",
+                        "category": "Alphabet",
+                        "level": "Beginner",
+                        "age": "All Ages",
+                        "title": "Armenian Alphabet Chart & Classroom Poster",
+                        "description": "A printable A3 alphabet chart showing each letter, its sound and an example word; ideal for a classroom or a child's bedroom wall."
+                    }
+                ]
+            },
+            "learning": {
+                "title": "Current Learning",
+                "currentCourse": "Current Course",
+                "courseValue": "Armenian",
+                "teacher": "Teacher",
+                "teacherName": "Ani Sargsyan",
+                "lessonDuration": "Lesson Duration",
+                "hours": "{n} hours",
+                "courseDuration": "Course Duration",
+                "progressTitle": "Progress Overview",
+                "learningProgress": "Learning Progress",
+                "homeworkCompletion": "Homework Completion",
+                "attendanceRate": "Attendance Rate",
+                "upcomingTitle": "Upcoming Lesson",
+                "meetSuffix": "Google Meet",
+                "quickActions": "Quick Actions",
+                "joinMeet": "Join Google Meet",
+                "uploadHomework": "Upload Homework",
+                "supportCenter": "Support Center",
+                "nextLesson": "Next Lesson"
+            },
+            "certificates": {
+                "title": "My Certificates",
+                "issued": "Issued {date} · {teacher}",
+                "download": "Download",
+                "empty": "No certificates yet.",
+                "items": [
+                    {
+                        "id": "cert-a2",
+                        "title": "General Armenian — A2 Level"
+                    },
+                    {
+                        "id": "cert-a1",
+                        "title": "General Armenian — A1 Level"
+                    }
+                ]
+            }
+        },
+        "settings": {
+            "title": "Settings",
+            "tabs": {
+                "account": "Account",
+                "notifications": "Notifications",
+                "security": "Security",
+                "language": "Language"
+            },
+            "account": {
+                "title": "Personal Information",
+                "subtitle": "Update your personal details and public profile.",
+                "photoTitle": "Profile Photo",
+                "photoHint": "JPG, PNG or GIF. Max 5MB.",
+                "uploadPhoto": "Upload Photo",
+                "photoTooBig": "The file is larger than 5MB.",
+                "photoBadType": "Unsupported file type.",
+                "fields": {
+                    "fullName": "Full Name",
+                    "email": "Email Address",
+                    "phone": "Phone Number",
+                    "country": "Country",
+                    "city": "City",
+                    "timezone": "Timezone",
+                    "dob": "Date of Birth",
+                    "gender": "Gender"
+                },
+                "genders": {
+                    "female": "Female",
+                    "male": "Male",
+                    "other": "Other",
+                    "preferNot": "Prefer not to say"
+                },
+                "learningGoal": "Learning Goal",
+                "learningGoalPlaceholder": "What do you want to achieve?",
+                "aboutMe": "About Me",
+                "aboutPlaceholder": "Tell us a little about yourself…",
+                "cancel": "Cancel",
+                "save": "Save Changes",
+                "saved": "Changes saved"
+            },
+            "notifications": {
+                "title": "Notification Preferences",
+                "emailTitle": "Email Notifications",
+                "emailDesc": "Receive lesson reminders and updates by email",
+                "newsletterTitle": "Newsletter",
+                "newsletterDesc": "Tips, resources, and news from Armat Academy"
+            },
+            "security": {
+                "title": "Security",
+                "changePassword": "Change Password",
+                "lastChanged": "Last changed {days} days ago",
+                "change": "Change",
+                "changeEmail": "Change Email",
+                "newEmail": "New Email",
+                "newEmailPlaceholder": "name@example.com",
+                "activeSessions": "Active Sessions",
+                "sessionsDesc": "{count} active session on {browser}",
+                "signOutOthers": "Sign Out Others",
+                "dangerZone": "Danger Zone",
+                "dangerDesc": "Permanently delete your account and all associated data.",
+                "deleteAccount": "Delete My Account",
+                "deleteConfirm": "Yes, delete"
+            },
+            "language": {
+                "title": "Language & Region",
+                "interfaceLanguage": "Interface Language",
+                "english": "English",
+                "armenian": "Հայերեն",
+                "dialect": "Dialect Preference",
+                "dialectOptions": {
+                    "readWrite": "Can read/write",
+                    "speak": "Can speak",
+                    "understand": "Can understand",
+                    "none": "No experience"
+                },
+                "savePreferences": "Save Preferences",
+                "saved": "Preferences saved"
+            }
+        }
+    },
+    "footer": {
+        "description": "High-quality Armenian language education for children",
+        "email": "Email",
+        "phone": "Phone",
+        "quickLinks": {
+            "title": "Quick links",
+            "home": "home",
+            "courses": "courses",
+            "about": "about us",
+            "reviews": "reviews"
+        },
+        "resources": {
+            "title": "Resources",
+            "blog": "Blog",
+            "freeTrial": "Free lesson",
+            "contact": "Contact us"
+        },
+        "newsletter": {
+            "title": "Newsletter",
+            "placeholder": "Your email address",
+            "subscribe": "Subscribe"
+        },
+        "legal": {
+            "title": "Legal information",
+            "privacyPolicy": "Privacy Policy",
+            "terms": "Terms and Conditions",
+            "refundPolicy": "Refund Policy"
+        },
+        "copyright": "© 2026 Armat School. All rights reserved. | Designed & Developed by Webex Technologies"
+    }
+}

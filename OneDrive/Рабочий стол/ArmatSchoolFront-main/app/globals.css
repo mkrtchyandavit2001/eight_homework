@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+:root {
+  /* Orange scale */
+  --orange-500: #F15A22;
+  --orange-600: #F26438;
+  --orange-400: #ED805F;
+  --orange-300: #E5917F;
+
+  /* Gray/Black scale */
+  --gray-900: #000000;
+  --gray-800: #2D2D2D;
+  --gray-600: #666666;
+  --gray-400: #999999;
+
+  /* White scale */
+  --white: #FFFFFF;
+  --gray-100: #EDEDED;
+  --gray-50: #F5F4F2;
+  --gray-25: #F7F7F7;
+}
+
+@theme {
+  --color-orange-300: var(--orange-300);
+  --color-orange-400: var(--orange-400);
+  --color-orange-500: var(--orange-500);
+  --color-orange-600: var(--orange-600);
+
+  --color-gray-25: var(--gray-25);
+  --color-gray-50: var(--gray-50);
+  --color-gray-100: var(--gray-100);
+  --color-gray-400: var(--gray-400);
+  --color-gray-600: var(--gray-600);
+  --color-gray-800: var(--gray-800);
+  --color-gray-900: var(--gray-900);
+}
+
+
+/* body{
+  backgroud-color: #F7F7F7
+} */

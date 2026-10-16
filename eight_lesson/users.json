@@ -1,0 +1,82 @@
+{
+  "users": [
+    {
+      "id": "b39f",
+      "name": "as",
+      "surname": "sad",
+      "salary": "2131"
+    },
+    {
+      "id": "6785",
+      "name": "as",
+      "surname": "sad",
+      "salary": "2131"
+    },
+    {
+      "id": "7207",
+      "name": "Ashot",
+      "surname": "Sargsyan",
+      "salary": "600000"
+    },
+    {
+      "id": "6d8e",
+      "name": "Karen ",
+      "surname": "Manukyan",
+      "salary": "45000"
+    },
+    {
+      "id": "7e81",
+      "name": "Narek",
+      "surname": "Simonyan",
+      "salary": "65000"
+    },
+    {
+      "id": "8c13",
+      "name": "duck",
+      "surname": "asad",
+      "salary": "5646546"
+    },
+    {
+      "id": "f7ff",
+      "name": "Դավիթ",
+      "surname": "Davit",
+      "salary": "45000"
+    },
+    {
+      "id": "52dc",
+      "name": "Դավիթ",
+      "surname": "Davit",
+      "salary": "45000"
+    },
+    {
+      "id": "fce3",
+      "name": "Hayk",
+      "surname": "Vardanyan",
+      "salary": "65000"
+    },
+    {
+      "id": "4d27",
+      "name": "Vardan",
+      "surname": "Sargsyan",
+      "salary": "540000"
+    },
+    {
+      "id": "45f2",
+      "name": "Martin",
+      "surname": "Karapetyan",
+      "salary": "5000000"
+    },
+    {
+      "id": "e00c",
+      "name": "John",
+      "surname": "Smith",
+      "salary": "600000"
+    },
+    {
+      "id": "ff8b",
+      "name": "Anna",
+      "surname": "Manukyan",
+      "salary": "650000"
+    }
+  ]
+}
